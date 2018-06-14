@@ -5,11 +5,11 @@
   
 Verge3D is a versatile piece of software which you can utilize differently depending on you personal preferences. This guide describes just one of possible ways of how you can build your workflow, so take it as a friendly recommendation. The only prerequisite is that you should have some experience with 3D editing software such as Autodesk 3ds Max or Blender.
 
-### Installation
+### 安装
 
 The installation procedure is throughly described in the corresponding sections for each supported 3D suite separately \([3ds Max](https://www.soft8soft.com/docs/manual/introduction/Installation-3ds-Max.html), [Blender](https://www.soft8soft.com/docs/manual/introduction/Installation-Blender.html)\).
 
-### App Manager
+### 应用管理
 
 Although you can start working on graphics first and create a Verge3D project later, we encourage you to leverage the Verge3D App Manager from the beginning. By doing so you ensure that your files are properly organized and stored within the same folder which is important for publishing. You will also have a working web application which you can run/reload in the browser independently from your 3D scenes.
 
@@ -35,7 +35,7 @@ After you created a project, return to the main screen of the App Manager - your
 
 ![](https://www.soft8soft.com/docs/files/beginner_guide/app-manager-app-buttons.png)
 
-### Running Your App
+### 运行你的应用
 
 You can run your app any time by clicking the Verge3D icons, either the blue or the green one. The blue icon launches an app in its final form, with its Puzzles scenario and the programming code \(if present\). On the contrary, the green icon only opens the exported scene.
 
@@ -47,7 +47,7 @@ A freshly created app loads and shows just a single cube. If instead it shows so
 
 Although very rare, another warning can be shown: "Your graphics card does not seem to support WebGL." This can happen if you're using an outdated or unsupported browser such as Internet Explorer, or your video card and/or drivers are blacklisted by the browser. Try installing Google Chrome/updating your OS/drivers or just find another computer.For now you can do no more than simply look around with the left mouse button pressed and zoom in and out with the mouse wheel. With Puzzles you'll be able to add various scenarios so that your 3D scene becomes a truly interactive web application.
 
-### Graphics
+### 图形设计
 
 Clicking on the 3ds Max or Blender icon opens up the main .max or .blend file of your application respectively. You can have more 3D editor files in a single project, but this one is considered "main" since the 3D scene which it produces upon exporting, will be loaded into your app first.  
 
@@ -94,7 +94,7 @@ To enable the viewport preview in Blender, select "Material" in the "Viewport Sh
 
 For the sake of familiarizing yourself with the basics, just add some teapots/Suzannes to your scene, export to glTF and run your app by clicking the blue Verge3D logo icon in the App Manager.For quicker updates, you can keep your application running in a browser tab. Hit "F5" on your keyboard every time you re-export your scene so that it reloads \(works for an active browser tab only\). Use the Alt+Tab \(Command+Tab on Mac\) shortcut to instantly switch between your 3D editor and the browser.
 
-### Puzzles
+### Puzzles编辑器
 
 Until now we used Verge3D as a fancy web exporter, which "just" generates live 3D views running in the browser. But you can do much, much more! With Puzzles, the powerful yet entertaining scripting environment which comes with Verge3D, you no longer have to be a programmer to do... programming.![](https://www.soft8soft.com/docs/files/beginner_guide/app-manager-app-buttons-puzzles.png)Click the "Puzzles" button near your app name in the App Manager. This will run your app with the Puzzles editor on top of it. Then you simply click the toolbox on the left and drag puzzles to the workspace. Connecting puzzles together creates a scenario, which will be applied to your scene on startup.
 
@@ -122,7 +122,7 @@ Now you a have a simple scenario - let's check how it works outside the Puzzles.
 
 Switch to the App Manager tab and run your app as usual and see that your scenario actually works. Congratulations, you have become a programmer!
 
-### Beyond Puzzles
+### 超越 Puzzles
 
 Puzzles offer many functions out of the box, but what if your application needs something special? For example, your app can be a part of a e-commerce website \(or e-learning system\) and so has to communicate with the rest of the website environment. For such a case Verge3D offers the so called "External Interface" which allows Puzzles to communicate with the JavaScript programming code in both directions.Basically you can call a properly registered JavaScript function from Puzzles and vice versa, the programming code can trigger your "JSCallback" puzzle \(located in "Events"\).
 
@@ -130,7 +130,7 @@ Puzzles offer many functions out of the box, but what if your application needs 
 
 New functions can be registered by adding them to the application **.js** file inside **prepareExternalInterface\(\)** that is already present there:`// Register "myJSFunction" to be called by Puzzles function prepareExternalInterface(app) { app.ExternalInterface.myJSFunction = function(arg) { alert(arg); // prints the passed parameter in a modal window } }`On the other hand, if you need to trigger your puzzles, you can simply call the method with the same name from inside **runCode\(\)** function that is also already present in the **.js** file:`// Trigger the "myJSCallback" puzzle with an argument function runCode() { app.ExternalInterface.myJSCallback('Hello, Puzzles!'); }`
 
-### Publishing
+### 发布
 
 You've created a web application and probably you'd like the billions of Internet users to come and check it out. If you own a website, this won't be a problem - simply upload the entire folder with your application to your server \(for example, via FTP or SSH\). Once deployed, you can provide a link to the app's HTML file somewhere on your website or embed it in a web page with an iframe.`<iframe width="1024" height="640" allowfullscreen src="https://www.example.com/my_awesome_app/my_awesome_app.html"></iframe>`But what if you haven't had the chance to become a web master? Actually, there is a button for that in the App Manager \(one with the "Earth" icon\). Clicking that button will upload your app to the Verge3D Network, a cloud-based storage and CDN hosted on Amazon servers.
 
@@ -140,7 +140,7 @@ After uploading is completed, it will provide you with a direct web link which y
 
 ![](https://www.soft8soft.com/docs/files/beginner_guide/network-uploaded.png)
 
-### Updating
+### 更新
 
 Verge3D is currently in active development with regular releases happening from time to time. We recommend you to keep in pace with the development cycle and timely update your Verge3D distribution and applications.
 
@@ -160,7 +160,7 @@ After initializing, copy .max or .blend files, all the textures and the Puzzles 
 
 Finally, you should perform exporting to glTF so that the exported format receives the latest updates. If you're using Puzzles, be sure to re-save your scenarios so that they match the newest version of code.
 
-### License key
+### 授权码
 
 After acquiring a license, you'll be sent the license information in an email \(the key below is a random example\).
 
@@ -174,7 +174,7 @@ You should enter the license key each time you update to a new version.
 
 ![](https://www.soft8soft.com/docs/files/beginner_guide/license-activated.png)
 
-### Support
+### 技术支持
 
 This is just a brief overview of Verge3D workflow with many topics possibly left undiscussed. We invite you join the [Verge3D community forums](https://www.soft8soft.com/forums/) where we'll be happy to answer all your questions.
 
