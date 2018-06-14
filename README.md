@@ -1,8 +1,6 @@
-# Welcome to Verge3D User Manual
+# 欢迎访问Verge3D中文用户手册
 
-Please select topic from the panel on the left side. If you don't know where to start please refer to the [Beginner's Guide](getting-started/beginners-guide-featured.md). This User Manual is partially based on the [Three.js documentation](https://threejs.org/docs).
-
-{% page-ref page="getting-started/" %}
+请从左侧的面板中选择主题。如果你从何处入手，请参考[入门指南](getting-started/beginners-guide-featured.md)。本用户手册部分内容基于 [Three.js文档](https://threejs.org/docs) 编写。
 
 {% page-ref page="getting-started/installation-verge3d-for-3ds-max.md" %}
 

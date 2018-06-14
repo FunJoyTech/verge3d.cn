@@ -1,2 +1,2 @@
-# Creating app from scratch
+# 从零开始创建应用
 

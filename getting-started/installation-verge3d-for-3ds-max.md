@@ -1,4 +1,4 @@
-# Installation - Verge3D for 3ds Max
+# ​为3ds Max安装Verge3D​
 
 Verge3D can run on top of Autodesk 3ds Max 2019 to 2015 which should be installed first. If this is not the case, you can download a free trial bundle from Autodesk's [website](https://www.autodesk.com/products/3ds-max/free-trial), or try Verge3D for Blender instead.[Download Verge3D](https://www.soft8soft.com/get-verge3d/) and run the **.exe** file so that unpacks to a directory of your choice. Make sure you have enough permissions to read/write in this folder. Installing in a system directory such as "Program Files" is not recommended.Run 3ds Max, and select "Configure System Paths..." under "Customize" in the main menu bar.
 
