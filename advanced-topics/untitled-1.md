@@ -1,0 +1,2 @@
+# WebGL compatibility check
+
