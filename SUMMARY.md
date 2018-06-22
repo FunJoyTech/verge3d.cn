@@ -87,3 +87,65 @@
 
 ## Core
 
+* [BufferAttribute](core/bufferattribute.md)
+* [BufferGeometry](core/buffergeometry.md)
+* [Clock](core/clock.md)
+* [DirectGeometry](core/directgeometry.md)
+* [EventDispatcher](core/eventdispatcher.md)
+* [Face3](core/face3.md)
+* [Geometry](core/geometry.md)
+* [InstancedBufferAttribute](core/instancedbufferattribute.md)
+* [InstancedBufferGeometry](core/instancedbuffergeometry.md)
+* [InstancedInterleavedBuffer](core/instancedinterleavedbuffer.md)
+* [InterleavedBuffer](core/interleavedbuffer.md)
+* [InterleavedBufferAttribute](core/interleavedbufferattribute.md)
+* [Layers](core/layers.md)
+* [Object3D](core/object3d.md)
+* [Raycaster](core/raycaster.md)
+* [Uniform](core/uniform.md)
+
+## Core / BufferAttributes
+
+* [BufferAttribute Types](core-bufferattributes/bufferattribute-types.md)
+
+## Deprecated
+
+* [DeprecatedList](deprecated/deprecatedlist.md)
+
+## Extras
+
+* [Preloader](extras/preloader.md)
+* [SceneUtils](extras/sceneutils.md)
+* [ShapeUtils](extras/shapeutils.md)
+* [SimplePreloader](extras/simplepreloader.md)
+
+## Extras / Core
+
+* [Curve](extras-core/curve.md)
+* [CurvePath](extras-core/curvepath.md)
+* [Font](extras-core/font.md)
+* [Interpolations](extras-core/interpolations.md)
+* [Path](extras-core/path.md)
+* [Shape](extras-core/shape.md)
+* [ShapePath](extras-core/shapepath.md)
+
+## Extras / Curves
+
+* [ArcCurve](extras-curves/arccurve.md)
+* [CatmullRomCurve3](extras-curves/catmullromcurve3.md)
+* [CubicBezierCurve](extras-curves/cubicbeziercurve.md)
+* [CubicBezierCurve3](extras-curves/cubicbeziercurve3.md)
+* [EllipseCurve](extras-curves/ellipsecurve.md)
+* [LineCurve](extras-curves/linecurve.md)
+* [LineCurve3](extras-curves/linecurve3.md)
+* [QuadraticBezierCurve](extras-curves/quadraticbeziercurve.md)
+* [QuadraticBezierCurve3](extras-curves/quadraticbeziercurve3.md)
+* [SplineCurve](extras-curves/splinecurve.md)
+
+## Extras / Objects
+
+* [ImmediateRenderObject](extras-objects/immediaterenderobject.md)
+* [MeshLine](extras-objects/meshline.md)
+* [MeshLineIndexed](extras-objects/meshlineindexed.md)
+* [MeshLineMaterial](extras-objects/meshlinematerial.md)
+
