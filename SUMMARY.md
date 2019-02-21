@@ -4,9 +4,13 @@
 
 ## 入门指引
 
+* [入门指南](getting-started/beginners-guide-featured.md)
 * [​为3ds Max安装Verge3D​](getting-started/installation-verge3d-for-3ds-max.md)
 * [为Blender安装Verge3D](getting-started/installation-verge3d-for-blender.md)
-* [入门指南（重点）](getting-started/beginners-guide-featured.md)
+* [工作流程](getting-started/gong-zuo-liu-cheng.md)
+* [拼图](getting-started/pin-tu.md)
+* [项目结构](getting-started/xiang-mu-jie-gou.md)
+* [更新版本](getting-started/geng-xin-ban-ben.md)
 * [在Facebook发布3D主题](getting-started/facebook-3d-posts.md)
 * [编程基础](getting-started/programming-basics.md)
 * [创建文本](getting-started/creating-text.md)
