@@ -8,7 +8,7 @@
 
 {% page-ref page="getting-started/beginners-guide-featured.md" %}
 
-{% page-ref page="getting-started/facebook-3d-posts.md" %}
+{% page-ref page="yi-ban-zhu-ti/facebook-3d-posts.md" %}
 
 
 

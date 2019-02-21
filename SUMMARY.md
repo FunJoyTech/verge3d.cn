@@ -11,12 +11,17 @@
 * [拼图](getting-started/pin-tu.md)
 * [项目结构](getting-started/xiang-mu-jie-gou.md)
 * [更新版本](getting-started/geng-xin-ban-ben.md)
-* [在Facebook发布3D主题](getting-started/facebook-3d-posts.md)
+* [FAQ](getting-started/faq.md)
+* [常用链接](getting-started/chang-yong-lian-jie.md)
 * [编程基础](getting-started/programming-basics.md)
 * [创建文本](getting-started/creating-text.md)
 * [画线](getting-started/drawing-lines.md)
 * [从零开始创建应用](getting-started/creating-app-from-scratch.md)
-* [FAQ](getting-started/faq.md)
+
+## 一般主题
+
+* [在Facebook发布3D主题](yi-ban-zhu-ti/facebook-3d-posts.md)
+* [Untitled](yi-ban-zhu-ti/untitled.md)
 
 ## 3ds Max Artist's Guide
 
