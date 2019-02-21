@@ -9,9 +9,9 @@ Verge3D是一款多功能的软件，您可以根据个人喜好来进行不同�
 
 ### 安装（Installation）
 
-The installation procedure is throughly described in the corresponding sections for each supported 3D suite individually: [3ds Max](https://www.soft8soft.com/docs/manual/en/introduction/Installation-3ds-Max.html), [Blender](https://www.soft8soft.com/docs/manual/en/introduction/Installation-Blender.html).
+The installation procedure is throughly described in the corresponding sections for each supported 3D suite individually: [3ds Max](https://docs.eightest.com/getting-started/installation-verge3d-for-3ds-max), [Blender](https://docs.eightest.com/getting-started/installation-verge3d-for-blender).
 
-安装过程在对应支持的3D编辑软件中分别逐步介绍：[3ds Max](https://www.soft8soft.com/docs/manual/en/introduction/Installation-3ds-Max.html)，[Blender](https://www.soft8soft.com/docs/manual/en/introduction/Installation-Blender.html)。
+安装过程在对应支持的3D编辑软件中分别逐步介绍：[3ds Max](https://docs.eightest.com/getting-started/installation-verge3d-for-3ds-max)，[Blender](https://www.soft8soft.com/docs/manual/en/introduction/Installation-Blender.html)。
 
 ### 预览（Sneak Peek）
 
