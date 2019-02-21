@@ -1,3 +1,7 @@
+---
+description: 已完成翻译
+---
+
 # 入门指南（重点）
 
 ## 入门指南（Beginner's Guide）
