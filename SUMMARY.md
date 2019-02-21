@@ -13,15 +13,16 @@
 * [更新版本](getting-started/geng-xin-ban-ben.md)
 * [FAQ](getting-started/faq.md)
 * [常用链接](getting-started/chang-yong-lian-jie.md)
-* [编程基础](getting-started/programming-basics.md)
-* [创建文本](getting-started/creating-text.md)
-* [画线](getting-started/drawing-lines.md)
-* [从零开始创建应用](getting-started/creating-app-from-scratch.md)
 
 ## 一般主题
 
+* [资产压缩](yi-ban-zhu-ti/zi-chan-ya-suo.md)
+* [基于HTML的用户界面](yi-ban-zhu-ti/ji-yu-html-de-yong-hu-jie-mian.md)
 * [在Facebook发布3D主题](yi-ban-zhu-ti/facebook-3d-posts.md)
-* [Untitled](yi-ban-zhu-ti/untitled.md)
+* [AR / VR开发](yi-ban-zhu-ti/ar-vr-kai-fa.md)
+* [Wordpress插件](yi-ban-zhu-ti/wordpress-cha-jian.md)
+* [使用JavaScript](yi-ban-zhu-ti/shi-yong-javascript.md)
+* [在移动浏览器上进行测试](yi-ban-zhu-ti/zai-yi-dong-lan-qi-shang-jin-hang-ce-shi.md)
 
 ## 3ds Max Artist's Guide
 
