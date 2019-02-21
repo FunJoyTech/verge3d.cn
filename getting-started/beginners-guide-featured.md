@@ -1,5 +1,5 @@
 ---
-description: 已完成翻译
+description: 已完成
 ---
 
 # 入门指南
