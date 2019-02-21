@@ -11,6 +11,10 @@ Verge3D是一款多功能软件，您可以根据个人喜好不同地使用它�
 
 The installation procedure is throughly described in the corresponding sections for each supported 3D suite separately \([3ds Max](https://www.soft8soft.com/docs/manual/introduction/Installation-3ds-Max.html), [Blender](https://www.soft8soft.com/docs/manual/introduction/Installation-Blender.html)\).
 
+安装过程将在每个支持的3D套件的相应部分中逐步描述：[3ds Max](https://www.soft8soft.com/docs/manual/en/introduction/Installation-3ds-Max.html)，[Blender](https://www.soft8soft.com/docs/manual/en/introduction/Installation-Blender.html)。
+
+
+
 ### 应用管理
 
 Although you can start working on graphics first and create a Verge3D project later, we encourage you to leverage the Verge3D App Manager from the beginning. By doing so you ensure that your files are properly organized and stored within the same folder which is important for publishing. You will also have a working web application which you can run/reload in the browser independently from your 3D scenes.
