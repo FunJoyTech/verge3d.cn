@@ -10,7 +10,7 @@
 * [创建文本（Creating Text）](cheng-xu-yuan-zhi-nan/chuang-jian-wen-ben-creating-text.md)
 * [绘制线条（Drawing Lines）](cheng-xu-yuan-zhi-nan/hui-zhi-xian-tiao-drawing-lines.md)
 * [如何更新事物（How to Update Things）](cheng-xu-yuan-zhi-nan/ru-he-geng-xin-shi-wu-how-to-update-things.md)
-* [约束（Conventions）](cheng-xu-yuan-zhi-nan/yue-shu-conventions.md)
+* [约定（Conventions）](cheng-xu-yuan-zhi-nan/yue-shu-conventions.md)
 * [如何获取资源（How to Obtain Sources）](cheng-xu-yuan-zhi-nan/ru-he-huo-qu-zi-yuan-how-to-obtain-sources.md)
 
 ## 入门指引（Getting Started）
