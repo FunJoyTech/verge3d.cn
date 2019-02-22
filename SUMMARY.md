@@ -4,7 +4,7 @@
 
 ## 入门指引（Getting Started）
 
-* [入门指南](getting-started/beginners-guide-featured.md)
+* [初学指南](getting-started/beginners-guide-featured.md)
 * [工作流程](getting-started/gong-zuo-liu-cheng.md)
 * [拼图工具](getting-started/pin-tu.md)
 * [项目结构](getting-started/xiang-mu-jie-gou.md)
