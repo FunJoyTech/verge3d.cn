@@ -180,7 +180,7 @@ You may also check out the following videos explaining how to work with the Puzz
 
 您还可以查看以下视频，了解如何使用拼图： [3ds Max](https://www.youtube.com/watch?v=Jsfqd9CIwqQ)，[Blender](https://www.youtube.com/watch?v=u-a_TJKQ8oQ)。
 
-### 发布
+### 发布（Publishing）
 
 **On your own website...**
 
@@ -230,7 +230,7 @@ Finally, you can post a 3D model directly on Facebook by leveraging the 3D Posts
 
 
 
-### 授权码
+### 授权码（License Key）
 
 After acquiring a license, you'll be sent the license information in an email \(the key below is a random example\).
 
