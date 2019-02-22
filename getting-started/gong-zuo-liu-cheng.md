@@ -1,8 +1,10 @@
 ---
-description: Beginner's Guide 待校订
+description: Workflow 待校订
 ---
 
 # 工作流程
+
+下面是由Soft8Soft团队和Verge3D用户内部使用的一个典型的工作流程（案例包括[滑板车配置](https://cdn.soft8soft.com/demo/applications/scooter/index.html)演示，[茶壶加热器](https://cdn.soft8soft.com/demo/applications/teapot_heater_max/index.html)演示，[工业机器人](https://cdn.soft8soft.com/demo/applications/industrial_robot/index.html)演示，[电子商务网站](https://cdn.soft8soft.com/demo/applications/recliner_max/index.html)实体模型等）。
 
 1. 建模和烘焙 （Modeling and Baking）
 2. 选择材质系统（Choosing Material System）
