@@ -2,7 +2,7 @@
 description: Facebook 3D Posts 待校定
 ---
 
-# 在Facebook发布3D主题
+# Facebook发布3D主题
 
 
 

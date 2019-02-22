@@ -16,15 +16,15 @@
 
 * [资产压缩](yi-ban-zhu-ti/zi-chan-ya-suo.md)
 * [基于HTML的用户界面](yi-ban-zhu-ti/ji-yu-html-de-yong-hu-jie-mian.md)
-* [在Facebook发布3D主题](yi-ban-zhu-ti/facebook-3d-posts.md)
-* [AR / VR开发](yi-ban-zhu-ti/ar-vr-kai-fa.md)
+* [Facebook发布3D主题](yi-ban-zhu-ti/facebook-3d-posts.md)
+* [AR 和VR的开发](yi-ban-zhu-ti/ar-vr-kai-fa.md)
 * [Wordpress插件](yi-ban-zhu-ti/wordpress-cha-jian.md)
 * [使用JavaScript](yi-ban-zhu-ti/shi-yong-javascript.md)
-* [在移动浏览器上测试](yi-ban-zhu-ti/zai-yi-dong-lan-qi-shang-jin-hang-ce-shi.md)
+* [移动浏览器测试](yi-ban-zhu-ti/zai-yi-dong-lan-qi-shang-jin-hang-ce-shi.md)
 
 ## 3ds Max 艺术家指南（3ds Max Artist's Guide）
 
-* [​为3ds Max安装Verge3D​](3ds-max-artists-guide/installation-verge3d-for-3ds-max.md)
+* [3ds Max安装Verge3D​](3ds-max-artists-guide/installation-verge3d-for-3ds-max.md)
 * [材质系统](3ds-max-artists-guide/material-systems.md)
 * [阴影](3ds-max-artists-guide/shadows.md)
 * [物理材质](3ds-max-artists-guide/physical-material-1.md)
@@ -33,7 +33,7 @@
 
 ## Blender 艺术家指南（Blender Artist's Guide）
 
-* [为Blender安装Verge3D](blender-artists-guide/installation-verge3d-for-blender.md)
+* [Blender安装Verge3D](blender-artists-guide/installation-verge3d-for-blender.md)
 * [材质系统概述](blender-artists-guide/cai-liao-xi-tong-gai-shu.md)
 * [阴影](blender-artists-guide/yin-ying-shadows.md)
 * [物理材质](blender-artists-guide/wu-li-cai-zhi-physical-material.md)

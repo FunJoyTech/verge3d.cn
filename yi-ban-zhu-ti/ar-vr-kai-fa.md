@@ -2,7 +2,7 @@
 description: AR/VR Development 待校订
 ---
 
-# AR / VR开发
+# AR 和VR的开发
 
 Verge3D允许创建基于Web的增强现实（AR）和虚拟现实（VR）体验，这些体验运行在开发中的浏览器技术之上，称为WebXR（Web上的eXtended Reality）。
 

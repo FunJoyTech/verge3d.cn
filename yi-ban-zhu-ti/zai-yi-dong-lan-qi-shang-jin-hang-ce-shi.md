@@ -2,7 +2,7 @@
 description: Testing on Mobile Browsers 待校订
 ---
 
-# 在移动浏览器上测试
+# 移动浏览器测试
 
 ## 在移动浏览器上测试Verge3D应用程序
 
