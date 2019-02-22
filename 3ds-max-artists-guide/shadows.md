@@ -1,31 +1,39 @@
 ---
-description: Shadows 待校订
+description: Shadows ——fastest已校订
 ---
 
 # 阴影
 
-下面介绍了在3ds Max的Verge3D中设置漂亮的实时阴影的设置和最佳实践。![](https://www.soft8soft.com/docs/files/shadows-max/shadows-example.jpg)
+下面介绍了在3ds Max的Verge3D中设置漂亮的实时阴影的设置和最佳实践。
 
-### 每灯设置
+![](https://www.soft8soft.com/docs/files/shadows-max/shadows-example.jpg)
 
-可以使用3ds Max的本机面板为每个单独的灯启用/禁用阴影。支持的阴影设置以绿色突出显示。![](https://www.soft8soft.com/docs/files/shadows-max/shadow-settings-perlight-max.jpg)  
+### 灯光设置\(Per-Light Settings\)
+
+可以使用3ds Max的本机面板为每个单独的灯启用/禁用阴影。支持的阴影设置以绿色突出显示。  
 
 
-必须启用 复选框**On，**并且必须在下拉列表中选择**阴影贴图**，以便在Verge3D中显示阴影。
+![](https://www.soft8soft.com/docs/files/shadows-max/shadow-settings-perlight-max.jpg)
 
-**衰减/场**定义阴影体积（越少越好）。
+必须启用 复选框**On，**并且必须在下拉列表中选择**阴影贴图\(Shadow Map\)**，以便在Verge3D中显示阴影。
 
-**偏差**可以调整，直到你摆脱自我阴影瑕疵和/或彼此平移效果。
+**衰减/场\(Falloff/Field\)**定义阴影体积（越少越好）。
 
-**大小**控制阴影纹理有多大（在速度和质量之间交易）。
+**偏差\(Bias\)**可以调整，直到你摆脱自我阴影瑕疵和/或彼此平移效果。
 
-**“样本范围”**控制阴影的模糊比。
+**大小\(Size\)**控制阴影纹理有多大（在速度和质量之间交易）。
 
-**绝对地图偏差**可以根据场景大小独立计算**偏差**。
+**样本范围\(Sample Range\)**控制阴影的模糊比。
 
-### 每个对象设置
+**绝对地图偏差\(Absolute Map Bias\)**可以根据场景大小独立计算**偏差**。
 
-您还可以基于ber-object启用和禁用接收和投射阴影。![](https://www.soft8soft.com/docs/files/shadows-max/object-properties.jpg)![](https://www.soft8soft.com/docs/files/shadows-max/shadows-per-object-settings.jpg)
+### 对象设置\(Per-Object Settings\)
+
+您还可以基于per-object启用和禁用接收和投射阴影。
+
+![](https://www.soft8soft.com/docs/files/shadows-max/object-properties.jpg)
+
+![](https://www.soft8soft.com/docs/files/shadows-max/shadows-per-object-settings.jpg)
 
 您可以查看以下[视频，](https://www.youtube.com/watch?v=ItsmBFa3lU0)了解如何在3ds Max中设置阴影。
 
