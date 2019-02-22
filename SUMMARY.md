@@ -2,17 +2,6 @@
 
 * [欢迎访问Verge3D中文用户手册](README.md)
 
-## 程序员指南（Programmer's Guide）
-
-* [编程基础（Programming Basics）](cheng-xu-yuan-zhi-nan/bian-cheng-ji-chu-programming-basics.md)
-* [矩阵变换（Matrix Transformations）](cheng-xu-yuan-zhi-nan/ju-zhen-bian-huan-matrix-transformations.md)
-* [动画系统（Animation System）](cheng-xu-yuan-zhi-nan/dong-hua-xi-tong-animation-system.md)
-* [创建文本（Creating Text）](cheng-xu-yuan-zhi-nan/chuang-jian-wen-ben-creating-text.md)
-* [绘制线条（Drawing Lines）](cheng-xu-yuan-zhi-nan/hui-zhi-xian-tiao-drawing-lines.md)
-* [如何更新事物（How to Update Things）](cheng-xu-yuan-zhi-nan/ru-he-geng-xin-shi-wu-how-to-update-things.md)
-* [约定（Conventions）](cheng-xu-yuan-zhi-nan/yue-shu-conventions.md)
-* [如何获取资源（How to Obtain Sources）](cheng-xu-yuan-zhi-nan/ru-he-huo-qu-zi-yuan-how-to-obtain-sources.md)
-
 ## 入门指引（Getting Started）
 
 * [入门指南（Beginner's Guide）](getting-started/beginners-guide-featured.md)
@@ -42,7 +31,7 @@
 * [透明度（Transparency）](3ds-max-artists-guide/transparency.md)
 * [视口和渲染预览（Viewport and Render Preview）](3ds-max-artists-guide/viewport-and-render-preview.md)
 
-## Blender A艺术家指南
+## Blender 艺术家指南（Blender Artist's Guide）
 
 * [为Blender安装Verge3D（Installation）](blender-artists-guide/installation-verge3d-for-blender.md)
 * [材质系统概述（Material System Overview）](blender-artists-guide/cai-liao-xi-tong-gai-shu.md)
@@ -51,6 +40,17 @@
 * [透明度（Transparency）](blender-artists-guide/tou-ming-du-transparency.md)
 * [使用材质库（Using Material Library）](blender-artists-guide/shi-yong-cai-zhi-ku-using-material-library.md)
 * [视口预览（Viewport  Preview）](blender-artists-guide/shi-kou-yu-lan-viewport-preview.md)
+
+## 程序员指南（Programmer's Guide）
+
+* [编程基础（Programming Basics）](cheng-xu-yuan-zhi-nan/bian-cheng-ji-chu-programming-basics.md)
+* [矩阵变换（Matrix Transformations）](cheng-xu-yuan-zhi-nan/ju-zhen-bian-huan-matrix-transformations.md)
+* [动画系统（Animation System）](cheng-xu-yuan-zhi-nan/dong-hua-xi-tong-animation-system.md)
+* [创建文本（Creating Text）](cheng-xu-yuan-zhi-nan/chuang-jian-wen-ben-creating-text.md)
+* [绘制线条（Drawing Lines）](cheng-xu-yuan-zhi-nan/hui-zhi-xian-tiao-drawing-lines.md)
+* [如何更新事物（How to Update Things）](cheng-xu-yuan-zhi-nan/ru-he-geng-xin-shi-wu-how-to-update-things.md)
+* [约定（Conventions）](cheng-xu-yuan-zhi-nan/yue-shu-conventions.md)
+* [如何获取资源（How to Obtain Sources）](cheng-xu-yuan-zhi-nan/ru-he-huo-qu-zi-yuan-how-to-obtain-sources.md)
 
 ## Advanced Topics
 
