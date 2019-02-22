@@ -1,5 +1,5 @@
 ---
-description: Beginner's Guide 已完成
+description: Beginner's Guide ——fastest已校订
 ---
 
 # 初学指南
