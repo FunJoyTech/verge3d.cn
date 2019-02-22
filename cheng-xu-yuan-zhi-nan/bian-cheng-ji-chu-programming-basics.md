@@ -1,10 +1,8 @@
 ---
-description: 待校订
+description: Programming Basics 待校订
 ---
 
-# 编程基础（Programming Basics）
-
-## 编程基础
+# 编程基础
 
 本节的目的是简要介绍Verge3D。我们将首先使用旋转立方体设置场景。页面底部提供了一个工作示例，以防您遇到困难并需要帮助。
 

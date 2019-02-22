@@ -1,12 +1,8 @@
 ---
-description: 待校订
+description: Creating Text 待校订
 ---
 
-# 创建文本（Creating Text）
-
-
-
-## 创建文本
+# 创建文本
 
 有时您可能需要在Verge3D应用程序中使用文本 - 这里有几种方法可以执行此操作。
 

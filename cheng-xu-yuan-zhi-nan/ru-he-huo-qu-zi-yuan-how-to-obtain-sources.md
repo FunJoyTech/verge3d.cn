@@ -1,8 +1,8 @@
 ---
-description: 待校订
+description: How to Obtain Sources 待校订
 ---
 
-# 如何获取资源（How to Obtain Sources）
+# 获取资源
 
 ## 如何获取Verge3D源
 

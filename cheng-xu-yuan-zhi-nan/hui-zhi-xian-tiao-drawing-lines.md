@@ -1,10 +1,8 @@
 ---
-description: 待校订
+description: Drawing Lines 待校订
 ---
 
-# 绘制线条（Drawing Lines）
-
-## 绘图线
+# 绘制线条
 
 假设您要绘制直线或圆，而不是线框网格。首先，我们需要设置渲染器，场景和相机（请参阅创建场景页面）。
 

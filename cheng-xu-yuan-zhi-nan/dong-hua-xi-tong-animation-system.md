@@ -1,10 +1,8 @@
 ---
-description: 待校订
+description: Animation System 待校订
 ---
 
-# 动画系统（Animation System）
-
-## 动画系统
+# 动画系统
 
 ### 概观
 

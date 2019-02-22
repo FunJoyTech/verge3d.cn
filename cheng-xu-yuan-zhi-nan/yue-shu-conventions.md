@@ -1,8 +1,8 @@
 ---
-description: 待校订
+description: Conventions 待校订
 ---
 
-# 约定（Conventions）
+# 约定
 
 ## 约定
 

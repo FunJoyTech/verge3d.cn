@@ -43,14 +43,14 @@
 
 ## 程序员指南（Programmer's Guide）
 
-* [编程基础（Programming Basics）](cheng-xu-yuan-zhi-nan/bian-cheng-ji-chu-programming-basics.md)
-* [矩阵变换（Matrix Transformations）](cheng-xu-yuan-zhi-nan/ju-zhen-bian-huan-matrix-transformations.md)
-* [动画系统（Animation System）](cheng-xu-yuan-zhi-nan/dong-hua-xi-tong-animation-system.md)
-* [创建文本（Creating Text）](cheng-xu-yuan-zhi-nan/chuang-jian-wen-ben-creating-text.md)
-* [绘制线条（Drawing Lines）](cheng-xu-yuan-zhi-nan/hui-zhi-xian-tiao-drawing-lines.md)
-* [如何更新事物（How to Update Things）](cheng-xu-yuan-zhi-nan/ru-he-geng-xin-shi-wu-how-to-update-things.md)
-* [约定（Conventions）](cheng-xu-yuan-zhi-nan/yue-shu-conventions.md)
-* [如何获取资源（How to Obtain Sources）](cheng-xu-yuan-zhi-nan/ru-he-huo-qu-zi-yuan-how-to-obtain-sources.md)
+* [编程基础](cheng-xu-yuan-zhi-nan/bian-cheng-ji-chu-programming-basics.md)
+* [矩阵变换](cheng-xu-yuan-zhi-nan/ju-zhen-bian-huan-matrix-transformations.md)
+* [动画系统](cheng-xu-yuan-zhi-nan/dong-hua-xi-tong-animation-system.md)
+* [创建文本](cheng-xu-yuan-zhi-nan/chuang-jian-wen-ben-creating-text.md)
+* [绘制线条](cheng-xu-yuan-zhi-nan/hui-zhi-xian-tiao-drawing-lines.md)
+* [更新事物](cheng-xu-yuan-zhi-nan/ru-he-geng-xin-shi-wu-how-to-update-things.md)
+* [约定](cheng-xu-yuan-zhi-nan/yue-shu-conventions.md)
+* [获取资源](cheng-xu-yuan-zhi-nan/ru-he-huo-qu-zi-yuan-how-to-obtain-sources.md)
 
 ## Advanced Topics
 

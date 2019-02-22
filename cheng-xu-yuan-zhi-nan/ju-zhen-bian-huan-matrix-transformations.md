@@ -1,10 +1,8 @@
 ---
-description: 待校订
+description: Matrix Transformations 待校订
 ---
 
-# 矩阵变换（Matrix Transformations）
-
-## 矩阵变换
+# 矩阵变换
 
 Verge3D使用**矩阵**编码3D变换 - 平移（位置），旋转和缩放。Object3D的每个实例都有一个矩阵，用于存储该对象的位置，旋转和缩放。本页介绍如何更新对象的转换。
 

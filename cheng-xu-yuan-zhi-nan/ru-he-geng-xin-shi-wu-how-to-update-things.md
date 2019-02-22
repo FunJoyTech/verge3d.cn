@@ -1,8 +1,8 @@
 ---
-description: 待校订
+description: How to Update Things 待校订
 ---
 
-# 如何更新事物（How to Update Things）
+# 更新事物
 
 ## 如何用代码更新事物
 
