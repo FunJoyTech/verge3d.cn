@@ -6,7 +6,7 @@
 
 * [入门指南](getting-started/beginners-guide-featured.md)
 * [工作流程](getting-started/gong-zuo-liu-cheng.md)
-* [拼图](getting-started/pin-tu.md)
+* [拼图工具](getting-started/pin-tu.md)
 * [项目结构](getting-started/xiang-mu-jie-gou.md)
 * [更新版本](getting-started/geng-xin-ban-ben.md)
 * [常问问题](getting-started/faq.md)
@@ -24,22 +24,22 @@
 
 ## 3ds Max 艺术家指南（3ds Max Artist's Guide）
 
-* [​为3ds Max安装Verge3D​（Installation）](3ds-max-artists-guide/installation-verge3d-for-3ds-max.md)
-* [材质系统（Material Systems）](3ds-max-artists-guide/material-systems.md)
-* [阴影（Shadows）](3ds-max-artists-guide/shadows.md)
-* [物理材质（Physical Material）](3ds-max-artists-guide/physical-material-1.md)
-* [透明度（Transparency）](3ds-max-artists-guide/transparency.md)
-* [视口和渲染预览（Viewport and Render Preview）](3ds-max-artists-guide/viewport-and-render-preview.md)
+* [​为3ds Max安装Verge3D​](3ds-max-artists-guide/installation-verge3d-for-3ds-max.md)
+* [材质系统](3ds-max-artists-guide/material-systems.md)
+* [阴影](3ds-max-artists-guide/shadows.md)
+* [物理材质](3ds-max-artists-guide/physical-material-1.md)
+* [透明度](3ds-max-artists-guide/transparency.md)
+* [视口和渲染预览](3ds-max-artists-guide/viewport-and-render-preview.md)
 
 ## Blender 艺术家指南（Blender Artist's Guide）
 
-* [为Blender安装Verge3D（Installation）](blender-artists-guide/installation-verge3d-for-blender.md)
-* [材质系统概述（Material System Overview）](blender-artists-guide/cai-liao-xi-tong-gai-shu.md)
-* [阴影（Shadows）](blender-artists-guide/yin-ying-shadows.md)
-* [物理材质（Physical Material）](blender-artists-guide/wu-li-cai-zhi-physical-material.md)
-* [透明度（Transparency）](blender-artists-guide/tou-ming-du-transparency.md)
-* [使用材质库（Using Material Library）](blender-artists-guide/shi-yong-cai-zhi-ku-using-material-library.md)
-* [视口预览（Viewport  Preview）](blender-artists-guide/shi-kou-yu-lan-viewport-preview.md)
+* [为Blender安装Verge3D](blender-artists-guide/installation-verge3d-for-blender.md)
+* [材质系统概述](blender-artists-guide/cai-liao-xi-tong-gai-shu.md)
+* [阴影](blender-artists-guide/yin-ying-shadows.md)
+* [物理材质](blender-artists-guide/wu-li-cai-zhi-physical-material.md)
+* [透明度](blender-artists-guide/tou-ming-du-transparency.md)
+* [使用材质库](blender-artists-guide/shi-yong-cai-zhi-ku-using-material-library.md)
+* [视口预览](blender-artists-guide/shi-kou-yu-lan-viewport-preview.md)
 
 ## 程序员指南（Programmer's Guide）
 

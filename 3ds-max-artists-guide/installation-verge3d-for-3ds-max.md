@@ -1,4 +1,8 @@
-# ​为3ds Max安装Verge3D​（Installation）
+---
+description: Installation 已完成
+---
+
+# ​为3ds Max安装Verge3D​
 
 正确安装Verge3D后，其可在Autodesk 3ds Max 2019 ~ 2015版本中运行。如果您还没有购买该软件，可以在Autodesk[官方网站](https://www.autodesk.com/products/3ds-max/free-trial)下载试用版，或者使用Verge3D for Blender作为替换。
 

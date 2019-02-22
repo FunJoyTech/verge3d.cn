@@ -1,10 +1,8 @@
 ---
-description: 待校订
+description: Material System Overview 待校订
 ---
 
-# 材质系统概述（Material System Overview）
-
-## 材料系统概述
+# 材质系统概述
 
 Verge3D支持Blender中提供的以下类型的材料：
 

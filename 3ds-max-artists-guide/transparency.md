@@ -1,10 +1,8 @@
 ---
-description: 待校订
+description: Transparency 待校订
 ---
 
-# 透明度（Transparency）
-
-## 透明度
+# 透明度
 
 在这里，我们将展示如何在3ds Max中为标准，物理和glTF兼容的PBR材料启用透明度。
 

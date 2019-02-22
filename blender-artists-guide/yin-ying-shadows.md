@@ -1,10 +1,8 @@
 ---
-description: 待校订
+description: Shadows 待校订
 ---
 
-# 阴影（Shadows）
-
-## 阴影
+# 阴影
 
 下面介绍在Verge3D for Blender中设置漂亮实时阴影的设置和最佳实践。![](https://www.soft8soft.com/docs/files/shadows-blender/shadows-example.jpg)
 

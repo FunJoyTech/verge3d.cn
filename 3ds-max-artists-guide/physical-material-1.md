@@ -1,10 +1,10 @@
 ---
-description: 待校订
+description: Physical Material 待校订
 ---
 
-# 物理材质（Physical Material）
+# 物理材质
 
-## 物理材料（符合glTF标准的PBR）
+## 物理材质（符合glTF标准的PBR）
 
 如果您的内容由于某种原因需要与[glTF 2.0标准](https://www.khronos.org/news/press/khronos-releases-gltf-2.0-specification)兼容（例如在Facebook上发布您的模型），您可以使用物理材料来实现此目的，如下所述。![](https://www.soft8soft.com/docs/files/physical-material/phmat_00.png)
 

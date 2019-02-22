@@ -1,8 +1,8 @@
 ---
-description: 待校订
+description: Viewport  Preview 待校订
 ---
 
-# 视口预览（Viewport  Preview）
+# 视口预览
 
 ## 视口预览（Blender 2.79内部）
 

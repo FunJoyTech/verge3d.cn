@@ -1,8 +1,8 @@
 ---
-description: 待校订
+description: Using Material Library 待校订
 ---
 
-# 使用材质库（Using Material Library）
+# 使用材质库
 
 ## 使用材料库（Verge3D for Blender）
 

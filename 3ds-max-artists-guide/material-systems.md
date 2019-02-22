@@ -1,10 +1,8 @@
 ---
-description: 待校订
+description: Material Systems 待校订
 ---
 
-# 材质系统（Material Systems）
-
-## 材料系统
+# 材质系统
 
 Verge3D支持3ds Max中提供的以下类型的材料：
 

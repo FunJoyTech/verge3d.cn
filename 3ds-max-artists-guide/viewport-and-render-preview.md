@@ -1,10 +1,8 @@
 ---
-description: 待校订
+description: Viewport and Render Preview 待校订
 ---
 
-# 视口和渲染预览（Viewport and Render Preview）
-
-## 视口和渲染预览
+# 视口和渲染预览
 
 在本指南中，您可以了解如何配置3ds Max视口以匹配Verge3D外观，以及如何使用Scanline / ART渲染和ActiveShade功能获取参考图像。
 

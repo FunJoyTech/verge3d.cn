@@ -1,10 +1,8 @@
 ---
-description: 待校订
+description: Shadows 待校订
 ---
 
-# 阴影（Shadows）
-
-## 阴影
+# 阴影
 
 下面介绍了在3ds Max的Verge3D中设置漂亮的实时阴影的设置和最佳实践。![](https://www.soft8soft.com/docs/files/shadows-max/shadows-example.jpg)
 

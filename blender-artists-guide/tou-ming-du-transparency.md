@@ -1,10 +1,8 @@
 ---
-description: 待校订
+description: Transparency 待校订
 ---
 
-# 透明度（Transparency）
-
-## 透明度
+# 透明度
 
 在这里，我们将展示如何在Blender中为glTF兼容的PBR，Cycles和Eevee材料启用透明度。Blender 2.7不讨论内部材料，因为它们已被弃用，不建议使用。
 
