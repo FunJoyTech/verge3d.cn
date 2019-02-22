@@ -14,13 +14,13 @@
 
 ## 一般主题（General Topics）
 
-* [资产压缩（Asset Compression）](yi-ban-zhu-ti/zi-chan-ya-suo.md)
-* [基于HTML的用户界面（HTML-Based User Interfaces）](yi-ban-zhu-ti/ji-yu-html-de-yong-hu-jie-mian.md)
-* [在Facebook发布3D主题（Facebook 3D Posts）](yi-ban-zhu-ti/facebook-3d-posts.md)
-* [AR / VR开发（AR/VR Development）](yi-ban-zhu-ti/ar-vr-kai-fa.md)
-* [Wordpress插件（Wordpress Plugin）](yi-ban-zhu-ti/wordpress-cha-jian.md)
-* [使用JavaScript（Using JavaScript）](yi-ban-zhu-ti/shi-yong-javascript.md)
-* [在移动浏览器上进行（Testing on Mobile Browsers）](yi-ban-zhu-ti/zai-yi-dong-lan-qi-shang-jin-hang-ce-shi.md)
+* [资产压缩](yi-ban-zhu-ti/zi-chan-ya-suo.md)
+* [基于HTML的用户界面](yi-ban-zhu-ti/ji-yu-html-de-yong-hu-jie-mian.md)
+* [在Facebook发布3D主题](yi-ban-zhu-ti/facebook-3d-posts.md)
+* [AR / VR开发](yi-ban-zhu-ti/ar-vr-kai-fa.md)
+* [Wordpress插件](yi-ban-zhu-ti/wordpress-cha-jian.md)
+* [使用JavaScript](yi-ban-zhu-ti/shi-yong-javascript.md)
+* [在移动浏览器上测试](yi-ban-zhu-ti/zai-yi-dong-lan-qi-shang-jin-hang-ce-shi.md)
 
 ## 3ds Max 艺术家指南（3ds Max Artist's Guide）
 

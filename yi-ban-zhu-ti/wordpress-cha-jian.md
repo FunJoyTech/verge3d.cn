@@ -1,10 +1,8 @@
 ---
-description: 待校订
+description: Wordpress Plugin 待校订
 ---
 
-# Wordpress插件（Wordpress Plugin）
-
-## Wordpress插件
+# Wordpress插件
 
 从版本2.7开始，Verge3D附带了一个WordPress插件，这是目前最流行的内容管理系统（CMS）（超过6000万次安装）。
 

@@ -1,8 +1,8 @@
 ---
-description: 待校订
+description: Using JavaScript 待校订
 ---
 
-# 使用JavaScript（Using JavaScript）
+# 使用JavaScript
 
 ## 在Verge3D应用程序中使用JavaScript
 

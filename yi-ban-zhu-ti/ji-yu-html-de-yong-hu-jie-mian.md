@@ -1,8 +1,8 @@
 ---
-description: 待校订
+description: HTML-Based User Interfaces 待校订
 ---
 
-# 基于HTML的用户界面（HTML-Based User Interfaces）
+# 基于HTML的用户界面
 
 ## 为3D Web应用程序构建基于HTML的用户界面
 

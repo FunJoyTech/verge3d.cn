@@ -1,10 +1,8 @@
 ---
-description: 待校订
+description: Asset Compression 待校订
 ---
 
-# 资产压缩（Asset Compression）
-
-## 资产压缩
+# 资产压缩
 
 在Verge3D中，可以使用高效的LZMA2压缩算法压缩场景文件，从而允许显着减小文件的大小。同时，LZMA2在浏览器端提供快速解压缩。Verge3D场景的典型压缩率为：**.gltf**文件为20x，**.bin**文件为6x 。
 

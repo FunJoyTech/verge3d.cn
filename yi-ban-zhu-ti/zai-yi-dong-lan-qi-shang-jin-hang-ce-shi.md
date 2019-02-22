@@ -1,8 +1,8 @@
 ---
-description: 待校订
+description: Testing on Mobile Browsers 待校订
 ---
 
-# 在移动浏览器上进行（Testing on Mobile Browsers）
+# 在移动浏览器上测试
 
 ## 在移动浏览器上测试Verge3D应用程序
 
