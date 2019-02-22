@@ -4,13 +4,13 @@
 
 ## 入门指引（Getting Started）
 
-* [入门指南（Beginner's Guide）](getting-started/beginners-guide-featured.md)
-* [工作流程（Beginner's Guide）](getting-started/gong-zuo-liu-cheng.md)
-* [拼图（Puzzles）](getting-started/pin-tu.md)
-* [项目结构（Project Structure）](getting-started/xiang-mu-jie-gou.md)
-* [更新版本（Updating for New Versions）](getting-started/geng-xin-ban-ben.md)
-* [FAQ](getting-started/faq.md)
-* [实用链接（Useful Links）](getting-started/chang-yong-lian-jie.md)
+* [入门指南](getting-started/beginners-guide-featured.md)
+* [工作流程](getting-started/gong-zuo-liu-cheng.md)
+* [拼图](getting-started/pin-tu.md)
+* [项目结构](getting-started/xiang-mu-jie-gou.md)
+* [更新版本](getting-started/geng-xin-ban-ben.md)
+* [常问问题](getting-started/faq.md)
+* [实用链接](getting-started/chang-yong-lian-jie.md)
 
 ## 一般主题（General Topics）
 

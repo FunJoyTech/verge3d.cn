@@ -1,10 +1,8 @@
 ---
-description: 待校订
+description: Updating for New Versions 校订
 ---
 
-# 更新版本（Updating for New Versions）
-
-## 更新版本
+# 更新版本
 
 Verge3D正在积极开发，定期发布软件版本。还有预发布的更新频道，新版本更频繁地推出。我们建议您跟上开发周期并及时更新Verge3D分发和应用程序。
 

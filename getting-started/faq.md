@@ -1,61 +1,102 @@
-# FAQ
+---
+description: FAQ 待校订
+---
 
-## General Questions
+# 常问问题
 
-### Which Import Format/Exporter is best supported?
+## 常问问题
 
-Verge3D is able to load various formats including glTF, OBJ, FBX, COLLADA, STL and PLY. Still, the preferred way to create 3D web content is to use glTF 2.0 format which is supported by both 3ds Max and Blender exporters
+以下是有关使用Verge3D的一些常见问题。
 
-Also, standard application logic provided by the App and AppPuzzles classes supports loading glTF files only. To load other formats please refer to the corresponding loader classes.
+* 许可
+* 一般的问题
+* 编程问题
 
-### What are the limitations / restrictions of the Verge3D Trial? Can I do ... ?
+＃
 
-Quick answer to that question would be to quote our License Agreement. The Verge3D EULA states: "The trial version of this software available for free download from the Soft8Soft website is intended for testing purposes only. Any use in production environments, for commercial or non-commercial purposes is prohibited.".
+### 许可
 
-Basically, you can do whatever you want \(and for how long\) provided you don't create Apps for production use. For example, you can use it to create basic samples for practicing purposes, to develop your personal skills, or to create a mock-up presentation to the management at your office. You are not allowed to use it for Education \(please contact us to receive a special Educational license for reduced price\) or to create your own portfolio \(this qualifies as production use, feel free to purchage the Verge3D Personal license in that case\).
+#### 可以安装Verge3D的计算机数量？有多少用户可以使用单一许可证？
 
-## Programming Questions
+许可证是根据每个人（个人）或每个实体（团队，企业）分配的。安装数量不受限制。如果是“个人”选项，则只有一个人可以使用Verge3D。另一方面，对公司或组织内的用户数量没有限制。
 
-### You say Verge3D is based on Three.js. Is it compatible with Three.js API?
+#### Verge3D试用版有哪些限制/限制？我可不可以做 ... ？
 
-To create Verge3D we modified Three.js code base a lot and thus we decided to use "v3d" prefix for our APIs. However, we'll try to maintain source code compatibility with Three.js. Most of the Three.js-based applications/examples should work in Verge3D without any modifications.
+对该问题的快速回答是引用我们的许可协议。Verge3D EULA声明：“该软件的试用版可从Soft8Soft网站免费下载，仅供测试之用。禁止在生产环境中出于商业或非商业目的使用。” 。
 
-### Why are there meta viewport tags in examples?
+基本上，如果您不为生产用途创建应用程序，则可以执行任何您想要的操作（以及持续时间）。例如，您可以使用它来创建用于练习目的的基本样本，发展您的个人技能，或为您的经理创建模拟演示文稿。您不得将其用于教育（请随时联系[我们](https://www.soft8soft.com/contact/)以降低价格申请特殊教育许可证）或创建您自己的投资组合（这有资格作为生产用途，因此请务必购买此类产品的Verge3D个人许可证案件）。
 
-```text
-<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-```
+＃
 
-These tags control viewport size and scale for mobile browsers \(where page content may be rendered at different size than visible viewport\).
+### 一般的问题
 
-[https://developer.mozilla.org/en/Mobile/Viewport\_meta\_tag](https://developer.mozilla.org/en/Mobile/Viewport_meta_tag)[http://developer.apple.com/library/safari/\#documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html](http://developer.apple.com/library/safari/#documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html)  
+#### 当我在Chrome中打开它时，我的应用程序无法加载 - 但是当它从App Manager运行或在Firefox中打开时它可以正常运行...
 
+由于浏览器供应商施加的安全策略，Web应用程序无法访问从其他域加载的数据，包括从本地文件系统（Firefox在此处例外）。因此，您应该使用App Manager（随本地服务器提供）进行开发，或者在Web服务器上发布Verge3D应用程序（或上传到Verge3D Network）以便能够运行它。
 
-### How can scene scale be preserved on resize?
+如果您需要桌面或移动应用程序，则可以使用第三方软件（例如[Electron](https://electronjs.org/)或[Cordova](https://cordova.apache.org/)）将Verge3D应用程序转换为这些平台。
 
-We want all objects, regardless of their distance from the camera, to appear the same size, even as the window is resized. The key equation to solving this is this formula for the visible height at a given distance:`visible_height = 2 * Math.tan( ( Math.PI / 180 ) * camera.fov / 2 ) * distance_from_camera;`If we increase the window height by a certain percentage, then what we want is the visible height at all distances to increase by the same percentage. This can not be done by changing the camera position. Instead you have to change the camera field-of-view. [Example](http://jsfiddle.net/Q4Jpu/).
+#### 通过单击.html文件启动应用程序时无法加载应用程序。
 
-### Why is part of my object invisible?
+请参阅上述问题的答案。
 
-This could be because of face culling. Faces have an orientation that decides which side is which. And the culling removes the backside in normal circumstances. To see if this is your problem, change the material side to v3d.DoubleSide.`material.side = v3d.DoubleSide`
+#### 我可以将场景导出到独立的全内置HTML文件吗？
 
-### Do you support Internet Explorer 11?
+不，Verge3D没有提供全面的HTML格式。如果您需要独立的可执行文件，可以尝试使用[Electron](https://electronjs.org/)进行转换。
 
-We have no intention to directly support IE 11 for several reasons:
+#### 有计划支持Maxon Cinema 4D吗？可能是Autodesk Maya？
 
-* WebGL is only partially supported in IE 11, so there are some issues related to rendering, the WebGL API, etc... To deal with them you need to implement additional hacks/workarounds, which increase code complexity and codebase size.
-* The lack of support for modern JS features used in the engine's code also requires some hacks/workarounds and slows down development.
-* IE 11 is old and is no longer being actively developed in favor of the new Microsoft Edge browser. So it will most likely remain as is with its current drawbacks.
-* The usage share of IE 11 is about [2-3 percent](https://www.w3schools.com/Browsers/browsers_explorer.asp) and is inevitably going down. So, we think that it isn't big enough to worth dealing with the drawbacks.
+在论坛上查看[此问题](https://www.soft8soft.com/topic/verge3d-for-cinema4d-call-for-discussion/)的[答案](https://www.soft8soft.com/topic/verge3d-for-cinema4d-call-for-discussion/)。
 
-Thus we don't directly provide support for it speaking of the engine's core, but for those who still need to run their demos in IE 11 we have a partial solution.
+#### Verge3D应用程序可以在Internet Explorer 11中运行吗？
 
-You can use a compatibility script located inside the SDK at the path: ./build/ie\_compat.js. It applies some workarounds to prevent possible engine crashes and allows to run Verge3D applications in IE 11. Still it doesn't guarantee that your scenes will work flawlessly.
+是。在应用创建面板中启用IE 11兼容模块。![](https://www.soft8soft.com/docs/files/faq/ie11-compat-module.jpg)
 
-In order to use this solution just copy that script in your application's folder and include it in the main HTML file before other verge3d-related scripts, for example:
+#### 如何将拼图复制到另一个项目中？
 
-`<script src="ie_compat.js"></script>  
- ...   
-<script src="v3d.js"></script>   
-<script src="my_awesome_app.js"></script>`
+您可以使用[库](https://www.soft8soft.com/docs/manual/en/introduction/Puzzles.html#Library)功能。
+
+#### 声音不在iOS上播放...
+
+看看如何解决这个[问题](https://www.soft8soft.com/docs/manual/en/introduction/Workflow.html#Audio_)。
+
+#### Verge3D可以使用哪些3D格式？
+
+Verge3D能够加载各种格式，包括glTF，OBJ，FBX，COLLADA，STL和PLY。尽管如此，创建3D Web内容的首选方法是使用3ds Max和Blender导出器支持的glTF 2.0格式。
+
+此外，标准应用程序模板的脚本基于App类，该类仅支持加载glTF文件。要加载其他一些格式，请使用相应的[加载器](https://cdn.soft8soft.com/demo/examples/index.html?q=loader)。
+
+＃
+
+### 编程问题
+
+#### 你说Verge3D基于Three.js。它与Three.js API兼容吗？
+
+为了创建Verge3D，我们修改了Three.js代码库，因此我们决定在API中使用“v3d”前缀。但是，我们将尝试维护与Three.js的源代码兼容性。大多数基于Three.js的应用程序和[示例](https://cdn.soft8soft.com/demo/examples/index.html)都应该在Verge3D中运行而不做任何修改。
+
+#### 为什么示例中有元视口标记？
+
+`<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">`
+
+这些标记控制移动浏览器的视口大小和比例（其中页面内容可以以与可见视口不同的大小呈现）。
+
+[https://developer.mozilla.org/en/Mobile/Viewport\_meta\_tag](https://developer.mozilla.org/en/Mobile/Viewport_meta_tag)
+
+#### 如何在调整大小时保留场景比例？
+
+我们希望所有对象（无论与相机的距离如何）都显示相同的大小，即使窗口调整大小也是如此。解决这个问题的关键方程是给定距离处可见高度的公式： 如果我们将窗高增加一定百分比，那么我们想要的是所有距离的可见高度增加相同的百分比。这不能通过改变相机位置来完成。相反，您必须更改摄像机视野。 [例子](http://jsfiddle.net/Q4Jpu/)。`visible_height = 2 * Math.tan((Math.PI / 180) * camera.fov / 2) * distance_from_camera;`
+
+#### 为什么我的对象的一部分不可见？
+
+这可能是因为面部剔除。面具有一个方向，决定哪一面是哪一面。在正常情况下，剔除会消除背面。要查看这是否是您的问题，请将材料面更改为v3d.DoubleSide。`material.side = v3d.DoubleSide`
+
+#### 我的应用程序窗口在iOS设备上无休止地增长。怎么解决？
+
+如果在iframe元素中嵌入Verge3D应用程序，则可能会遇到iOS设备上的特定问题，这会导致iframe的大小不断超出浏览器窗口的范围。这反过来可能导致WebGL崩溃。
+
+要解决此问题，您可以使用以下代码段，该代码段会将iframe的大小调整为页面的正文，以防止所述iframe超出它。`<script> if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) { var iframe = document.getElementById('myIframe'); function resize() { iframe.style.width = getComputedStyle(document.body).width; iframe.style.height = getComputedStyle(document.body).height; iframe.setAttribute('scrolling', 'no'); } iframe.addEventListener('resize', function(e) { resize(); }); resize(); } </script>`
+
+#### 键盘控件不适用于嵌入在iframe中的应用
+
+当页面上的其他HTML得到关注时，就会发生这种情况。要解决此问题，请尝试以下代码： 其中**my\_iframe\_id**是iframe元素的ID。`document.getElementById("my_iframe_id").focus();`
 

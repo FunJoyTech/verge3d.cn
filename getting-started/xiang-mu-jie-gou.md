@@ -1,10 +1,8 @@
 ---
-description: 待校订
+description: Project Structure  待校订
 ---
 
-# 项目结构（Project Structure）
-
-## 项目结构
+# 项目结构
 
 Verge3D追求强大的艺术家友好型方法，为WebGL应用程序创建了一整套文件。建议不要编辑大多数初始化的项目文件，因为其中一些可能会在某些用户操作（例如导出，保存拼图等）时自动重新生成，而其他文件可能会在更新到新的Verge3D版本时被覆盖。
 
