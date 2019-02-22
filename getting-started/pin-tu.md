@@ -6,53 +6,55 @@ description: （Puzzles）待校订
 
 Verge3D的Puzzles编辑器是开发任何复杂的智能Web应用程序的强大工具。通过Puzzles，您可以轻松地将行为场景添加到3D内容中，使其具有交互性并响应用户操作。这个神奇的工具既可用于快速原型制作，也可用于生产。对于3D艺术家来说，这个宝贵的工具克服了Web开发的技术障碍，从而可以将他们的创造力应用于交互式3D Web领域。
 
-* 初始化
-* 活动
-* 选择
-* 对象
-* 物料
-* 动画
-* 相机
-* 场景
-* 杂项
-* 时间
-* HTML
-* AR / VR
-* 声音
-* 约束
-* 后期处理
-* 变量
-* 程序
-* 调试
-* 图书馆
+             Logic Loops Text Numbers Lists Dicts Variables Procedures Debug Library
+
+* 初始化\(Initialization\)
+* 事件\(Events\)
+* 选择器\(Selectors\)
+* 对象\(Objects\)
+* 材质\(Materials\)
+* 动画\(Animation\)
+* 相机\(Camera\)
+* 场景\(Scenes\)
+* 杂项\(Misc\)
+* 时间\(Time\)
+* HTML\(HTML\)
+* AR / VR\(AR/VR\)
+* 声音\(Sound\)
+* 约束\(Constraints\) 
+* 后期处理\(Post-processing\)
+* 变量\(Variables\)
+* 程序\(Procedures\)
+* 调试\(Debug\)
+* 图书馆\(Library\)
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-editor.jpg)
 
-[初学者指南](https://www.soft8soft.com/docs/manual/en/introduction/Beginner-Guide.html) 中介绍了Puzzles编辑器的基本操作。
+[初学指南](https://www.soft8soft.com/docs/manual/en/introduction/Beginner-Guide.html) 中介绍了Puzzles编辑器的基本操作。
 
 ＃
 
-### 初始化
+### 初始化\(Initialization\)
 
-这些谜题位于**init**选项卡下，并在初始化Verge3D应用程序之前进行解释。
+这些拼图位于**init**选项卡下，并在初始化Verge3D应用程序之前进行解释。
 
 ＃
 
-**“配置应用程序”**
+**“配置应用程序”\("configure application"\)**
 
 允许设置应用程序初始化参数，包括一些WebGL上下文创建参数。
 
-* “压缩资产” - 使应用程序加载**.xz**格式的压缩场景而不是常规**.gltf**文件（有关详细信息，请参阅资产压缩部分）
-* “默认全屏按钮” - 使默认全屏按钮显示在右上角
-* “透明背景” - 使背景透明，以便通过WebGL画布显示网页的底层部分
-* “启用屏幕截图” - 将WebGL上下文的**preserveDrawingBuffer**属性设置为true，从而可以从WebGL画布正确捕获屏幕截图
-* “淡化注释” - 当注释被场景对象阻挡时，注释会消失
+* “压缩资产”\("compressed assets"\)- 使应用程序加载**.xz**格式的压缩场景而不是常规**.gltf**文件（有关详细信息，请参阅资产压缩部分）
+* “默认全屏按钮” \("default fullscreen button"\)- 使默认全屏按钮显示在右上角
+* “透明背景”\("transparent background"\) - 使背景透明，以便通过WebGL画布显示网页的底层部分
+* “启用屏幕截图”\("enable screenshots"\) - 将WebGL上下文的**preserveDrawingBuffer**属性设置为true，从而可以从WebGL画布正确捕获屏幕截图
+* “淡化注释” \("fade annotations"\)- 当注释被场景对象阻挡时，注释会消失
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-init-configure-app.jpg)
 
 ＃
 
-**“设置预加载器”+“百分比”**
+**“设置预加载器”+“百分比”\("setup preloader" + "percentage"\)**
 
 删除默认预加载器并公开事件回调以允许处理预加载器进度事件。
 
@@ -64,7 +66,7 @@ Verge3D的Puzzles编辑器是开发任何复杂的智能Web应用程序的强大
 
 ### 活动
 
-此类别的谜题处理用户生成的事件：鼠标点击/触摸，悬停和拖动。
+此类别的拼图处理用户生成的事件：鼠标点击/触摸，悬停和拖动。
 
 ＃
 
@@ -142,7 +144,7 @@ Verge3D的Puzzles编辑器是开发任何复杂的智能Web应用程序的强大
 
 ### 选择
 
-此类别的谜题用于选择3D对象，组，动画片段和材料以适应其他谜题。
+此类别的拼图用于选择3D对象，组，动画片段和材料以适应其他拼图。
 
 ＃
 
@@ -188,7 +190,7 @@ Verge3D的Puzzles编辑器是开发任何复杂的智能Web应用程序的强大
 
 ### 对象
 
-此类别的谜题使用对象执行各种操作。
+此类别的拼图使用对象执行各种操作。
 
 ＃
 
@@ -298,7 +300,7 @@ Verge3D的Puzzles编辑器是开发任何复杂的智能Web应用程序的强大
 
 **“大纲”**
 
-对指定对象应用或删除轮廓效果。要解锁此谜题，请在3ds Max或Blender中启用轮廓效果。也适用于对象列表，组（或组列表）或所有对象拼图。
+对指定对象应用或删除轮廓效果。要解锁此拼图，请在3ds Max或Blender中启用轮廓效果。也适用于对象列表，组（或组列表）或所有对象拼图。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-object-outline.jpg)
 
@@ -334,7 +336,7 @@ Verge3D的Puzzles编辑器是开发任何复杂的智能Web应用程序的强大
 
 **对于Blender用户：**您可以在基于节点的材料（GLSL Internal，Cycles，Eevee）中添加**RGB**节点，它们的名称将显示在下拉菜单中。此外，还可以访问材料，扩展材料，BSDF Principled，BSDF Diffuse和BSDF Glossy节点的漫反射（或“基础”）颜色输入。对于**符合glTF标准的PBR材料**，**BaseColor**和**Emissive**输入只能通过此拼图访问。
 
-此谜题还可用于修改环境着色器。在下拉列表中，环境着色器的名称以“Verge3D\_Environment”开头。
+此拼图还可用于修改环境着色器。在下拉列表中，环境着色器的名称以“Verge3D\_Environment”开头。
 
 有关Verge3D用户可用材料的更多信息，请参阅本手册的材料系统概述章节：[3ds Max](https://www.soft8soft.com/docs/manual/en/introduction/Material-System-Max.html)，[Blender](https://www.soft8soft.com/docs/manual/en/introduction/Material-System-Blender.html)。
 
@@ -350,7 +352,7 @@ Verge3D的Puzzles编辑器是开发任何复杂的智能Web应用程序的强大
 
 **对于Blender用户：**您可以在基于节点的材料（GLSL Internal，Cycles，Eevee）中添加**Value**节点，它们的名称将显示在下拉菜单中。在**符合glTF标准的PBR**材料的情况下，可以通过以下难题访问以下输入：金属度（PBR节点中的MetallicFactor），粗糙度（PBR节点中的RoughnessFactor），bumpScale（PBR节点中的NormalScale），emissiveIntesity（PBR节点中的EmissiveFactor）和envMapIntensity （未在PBR节点中显示）。
 
-此谜题还可用于修改环境着色器。在下拉列表中，环境着色器的名称以“Verge3D\_Environment”开头。
+此拼图还可用于修改环境着色器。在下拉列表中，环境着色器的名称以“Verge3D\_Environment”开头。
 
 有关Verge3D用户可用材料的更多信息，请参阅本手册的材料系统概述章节：[3ds Max](https://www.soft8soft.com/docs/manual/en/introduction/Material-System-Max.html)，[Blender](https://www.soft8soft.com/docs/manual/en/introduction/Material-System-Blender.html)。
 
@@ -366,7 +368,7 @@ Verge3D的Puzzles编辑器是开发任何复杂的智能Web应用程序的强大
 
 ### 动画
 
-此类别的谜题使用动画片段执行操作。
+此类别的拼图使用动画片段执行操作。
 
 ＃
 
@@ -380,7 +382,7 @@ Verge3D的Puzzles编辑器是开发任何复杂的智能Web应用程序的强大
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-animation-play.jpg)
 
-此谜题也适用于动画片段列表。
+此拼图也适用于动画片段列表。
 
 ＃
 
@@ -434,7 +436,7 @@ Verge3D的Puzzles编辑器是开发任何复杂的智能Web应用程序的强大
 
 ### 相机
 
-此类别的谜题使用相机执行操作。
+此类别的拼图使用相机执行操作。
 
 ＃
 
@@ -464,13 +466,13 @@ Verge3D的Puzzles编辑器是开发任何复杂的智能Web应用程序的强大
 
 ### 场景
 
-此类别的谜题通过场景执行加载/卸载操作。
+此类别的拼图通过场景执行加载/卸载操作。
 
 ＃
 
 **“加载场景”+“百分比”**
 
-触发此谜题时，将卸载当前场景并从指定的.gltf文件加载新场景。加载完成后，触发“加载时”插槽中的谜题。还可以启用“on progress do”插槽。放置在此插槽中的拼图在装载期间不断触发，并可利用“百分比”拼图。
+触发此拼图时，将卸载当前场景并从指定的.gltf文件加载新场景。加载完成后，触发“加载时”插槽中的拼图。还可以启用“on progress do”插槽。放置在此插槽中的拼图在装载期间不断触发，并可利用“百分比”拼图。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-scenes-load-scene.jpg)
 
@@ -480,7 +482,7 @@ Verge3D的Puzzles编辑器是开发任何复杂的智能Web应用程序的强大
 
 **“追加场景”+“百分比”**
 
-触发此谜题时，将从指定的.gltf文件加载新场景并将其附加到当前场景。加载完成后，触发“加载时”插槽中的谜题。还可以启用“on progress do”插槽。放置在此插槽中的拼图在装载期间不断触发，并可利用“百分比”拼图。默认情况下，“追加场景”拼图不会从新场景加载相机和灯光。可以在拼图选项中更改此行为。
+触发此拼图时，将从指定的.gltf文件加载新场景并将其附加到当前场景。加载完成后，触发“加载时”插槽中的拼图。还可以启用“on progress do”插槽。放置在此插槽中的拼图在装载期间不断触发，并可利用“百分比”拼图。默认情况下，“追加场景”拼图不会从新场景加载相机和灯光。可以在拼图选项中更改此行为。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-scenes-append-scene.jpg)
 
@@ -504,7 +506,7 @@ Verge3D的Puzzles编辑器是开发任何复杂的智能Web应用程序的强大
 
 **“打开网页”**
 
-触发此谜题时，将根据下拉选项在新的或相同的浏览器选项卡中打开指定的URL。当从Puzzles编辑器触发时，它会在离开选项卡之前要求用户确认。
+触发此拼图时，将根据下拉选项在新的或相同的浏览器选项卡中打开指定的URL。当从Puzzles编辑器触发时，它会在离开选项卡之前要求用户确认。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-misc-open-web-page.jpg)
 
@@ -520,9 +522,9 @@ Verge3D的Puzzles编辑器是开发任何复杂的智能Web应用程序的强大
 
 **“替换场景”**
 
-这个谜题已被弃用。请改用加载场景。
+这个拼图已被弃用。请改用加载场景。
 
-触发此谜题时，将卸载当前场景并从指定的**.gltf**文件加载新场景。加载完成后，触发“加载时”插槽中的谜题。
+触发此拼图时，将卸载当前场景并从指定的**.gltf**文件加载新场景。加载完成后，触发“加载时”插槽中的拼图。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-misc-replace-scene.jpg)
 
@@ -540,7 +542,7 @@ Verge3D的Puzzles编辑器是开发任何复杂的智能Web应用程序的强大
 
 **“当从JS调用时”**
 
-允许从应用程序的JavaScript代码触发Puzzles。（可选）检索从JavaScript代码传递的参数，并将它们保存为变量以供“do”插槽中的谜题使用。
+允许从应用程序的JavaScript代码触发Puzzles。（可选）检索从JavaScript代码传递的参数，并将它们保存为变量以供“do”插槽中的拼图使用。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-misc-when-called-from-js.jpg)
 
@@ -566,7 +568,7 @@ Verge3D的Puzzles编辑器是开发任何复杂的智能Web应用程序的强大
 
 **“加载数据”**
 
-返回由加载数据检索的数据或发送数据谜题。
+返回由加载数据检索的数据或发送数据拼图。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-misc-loaded-data.jpg)
 
@@ -598,7 +600,7 @@ Verge3D的Puzzles编辑器是开发任何复杂的智能Web应用程序的强大
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-misc-save-state.jpg)
 
-如果多次调用此谜题，则按顺序保存状态，以便可以使用撤消状态谜题返回任何先前的状态。
+如果多次调用此拼图，则按顺序保存状态，以便可以使用撤消状态拼图返回任何先前的状态。
 
 ＃
 
@@ -608,7 +610,7 @@ Verge3D的Puzzles编辑器是开发任何复杂的智能Web应用程序的强大
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-misc-undo-state.jpg)
 
-如果多次调用此谜题，则从保存的序列（如果有）恢复状态，这使得可以从堆栈返回任何先前保存的状态。
+如果多次调用此拼图，则从保存的序列（如果有）恢复状态，这使得可以从堆栈返回任何先前保存的状态。
 
 ＃
 
@@ -632,7 +634,7 @@ Verge3D的Puzzles编辑器是开发任何复杂的智能Web应用程序的强大
 
 使用“标题”，“内容”和“总价格”字段以及可选的屏幕截图组成隐藏的订单表单，并根据Wordpress插件部分中说明的规范将此表单提交到指定的URL。默认情况下，订单表单将提交给[演示订购页面](https://www.soft8soft.com/order-form-demo)。
 
-Verge3D附带一个免费的Wordpress插件，可以处理这个谜题提交的请求。收到这样的请求后，这个Wordpress插件呈现一个页面，其中包含扩展形式，并附有联系和注释字段，嵌入式屏幕截图和验证码。最终填写的表单由客户提交，并在Wordpress管理界面中创建新订单。客户和销售经理都通过电子邮件通知订单。
+Verge3D附带一个免费的Wordpress插件，可以处理这个拼图提交的请求。收到这样的请求后，这个Wordpress插件呈现一个页面，其中包含扩展形式，并附有联系和注释字段，嵌入式屏幕截图和验证码。最终填写的表单由客户提交，并在Wordpress管理界面中创建新订单。客户和销售经理都通过电子邮件通知订单。
 
 有关设置信息，请参阅本手册的Wordpress插件部分。
 
@@ -652,13 +654,13 @@ Verge3D附带一个免费的Wordpress插件，可以处理这个谜题提交的�
 
 ### 时间
 
-这些谜题产生基于时间的事件。
+这些拼图产生基于时间的事件。
 
 ＃
 
 **“后”**
 
-等待指定的时间，然后触发放置在“do”插槽内的谜题。
+等待指定的时间，然后触发放置在“do”插槽内的拼图。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-time-after.jpg)
 
@@ -666,7 +668,7 @@ Verge3D附带一个免费的Wordpress插件，可以处理这个谜题提交的�
 
 **“每”**
 
-等待指定的时间，然后触发放置在“do”插槽内的谜题。然后重复。
+等待指定的时间，然后触发放置在“do”插槽内的拼图。然后重复。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-time-every.jpg)
 
@@ -674,7 +676,7 @@ Verge3D附带一个免费的Wordpress插件，可以处理这个谜题提交的�
 
 **“每一帧”**
 
-触发每个渲染帧放置在“do”插槽内的谜题（通常以每秒60帧的速率）。
+触发每个渲染帧放置在“do”插槽内的拼图（通常以每秒60帧的速率）。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-time-every-frame.jpg)
 
@@ -690,7 +692,7 @@ Verge3D附带一个免费的Wordpress插件，可以处理这个谜题提交的�
 
 ### HTML
 
-这些谜题操纵HTML DOM元素。
+这些拼图操纵HTML DOM元素。
 
 ＃
 
@@ -736,7 +738,7 @@ Verge3D附带一个免费的Wordpress插件，可以处理这个谜题提交的�
 
 **“事件”**
 
-为具有指定标识的HTML元素 注册[事件侦听](https://www.w3schools.com/jsref/dom_obj_event.asp)器。如果HTML元素位于外部HTML文档（使用**iframe**嵌入Verge3D应用程序的**.html**文件）中，则应启用“在父文档中”复选框。一旦发生事件，触发放置在“do”槽中的谜题。也适用于元素ID列表。
+为具有指定标识的HTML元素 注册[事件侦听](https://www.w3schools.com/jsref/dom_obj_event.asp)器。如果HTML元素位于外部HTML文档（使用**iframe**嵌入Verge3D应用程序的**.html**文件）中，则应启用“在父文档中”复选框。一旦发生事件，触发放置在“do”槽中的拼图。也适用于元素ID列表。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-html-on-event.jpg)
 
@@ -744,7 +746,7 @@ Verge3D附带一个免费的Wordpress插件，可以处理这个谜题提交的�
 
 **“获取事件属性”**
 
-输出由“事件”谜题生成的事件的[属性](https://www.w3schools.com/jsref/obj_events.asp)值。
+输出由“事件”拼图生成的事件的[属性](https://www.w3schools.com/jsref/obj_events.asp)值。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-html-get-event-property.jpg)
 
@@ -784,7 +786,7 @@ Verge3D附带一个免费的Wordpress插件，可以处理这个谜题提交的�
 
 **“绑定元素”**
 
-使指定的HTML元素跟随屏幕空间中指定3D对象的中心。如果HTML元素位于外部HTML文档（使用**iframe**嵌入Verge3D应用程序的**.html**文件）中，则应启用“在父文档中”复选框。一个更加可自定义的“添加注释”谜题的变体。
+使指定的HTML元素跟随屏幕空间中指定3D对象的中心。如果HTML元素位于外部HTML文档（使用**iframe**嵌入Verge3D应用程序的**.html**文件）中，则应启用“在父文档中”复选框。一个更加可自定义的“添加注释”拼图的变体。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-html-bind-element.jpg)
 
@@ -808,15 +810,15 @@ Verge3D附带一个免费的Wordpress插件，可以处理这个谜题提交的�
 
 ### AR / VR
 
-这些谜题用于实现基于Web的增强现实（AR）和虚拟现实（VR）体验，这些体验运行在开发中的浏览器技术之上，称为[WebXR](https://github.com/immersive-web/webxr/blob/master/explainer.md)（Web上的eXtended Reality）。
+这些拼图用于实现基于Web的增强现实（AR）和虚拟现实（VR）体验，这些体验运行在开发中的浏览器技术之上，称为[WebXR](https://github.com/immersive-web/webxr/blob/master/explainer.md)（Web上的eXtended Reality）。
 
-这些谜题被认为是实验性的，因为WebXR正在快速发展，浏览器预览版本每天都在变化。目前AR拼图被禁用，直到规格稳定。为了使用VR谜题，我们建议在创建[新项目](https://www.soft8soft.com/docs/manual/en/introduction/Workflow.html#Project)时打开**Legacy VR**复选框。
+这些拼图被认为是实验性的，因为WebXR正在快速发展，浏览器预览版本每天都在变化。目前AR拼图被禁用，直到规格稳定。为了使用VR拼图，我们建议在创建[新项目](https://www.soft8soft.com/docs/manual/en/introduction/Workflow.html#Project)时打开**Legacy VR**复选框。
 
 ＃
 
 **“初始VR模式”**
 
-初始化虚拟现实系统。如果成功，将触发“if available do”中的谜题。否则，如果浏览器不支持VR或VR硬件未找到，则触发“if unavailable do”插槽中的谜题。
+初始化虚拟现实系统。如果成功，将触发“if available do”中的拼图。否则，如果浏览器不支持VR或VR硬件未找到，则触发“if unavailable do”插槽中的拼图。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-ar-vr-init-vr-mode.jpg)
 
@@ -834,13 +836,13 @@ Verge3D附带一个免费的Wordpress插件，可以处理这个谜题提交的�
 
 ### 声音
 
-这些谜题用于加载和播放HTML5声音。
+这些拼图用于加载和播放HTML5声音。
 
 ＃
 
 **“加载声音”**
 
-创建[HTML5音频](https://www.w3schools.com/html/html5_audio.asp)元素并使用指定的URL加载声音文件。此谜题还将创建的音频元素添加到内存缓存中，以便具有相同URL的此谜题的任何后续使用不会再次加载相同的声音文件。建议使用**.mp3**格式，因为大多数Web浏览器都支持。
+创建[HTML5音频](https://www.w3schools.com/html/html5_audio.asp)元素并使用指定的URL加载声音文件。此拼图还将创建的音频元素添加到内存缓存中，以便具有相同URL的此拼图的任何后续使用不会再次加载相同的声音文件。建议使用**.mp3**格式，因为大多数Web浏览器都支持。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-sound-load-sound.jpg)
 
@@ -888,7 +890,7 @@ Verge3D附带一个免费的Wordpress插件，可以处理这个谜题提交的�
 
 ### 约束
 
-这些谜题用于约束物体运动。如果对象不是另一个对象的父级，则约束将在世界空间中起作用。否则它们将在父对象的空间中工作 - 您可以在3ds Max或Blender中选择父对象以显示坐标轴。
+这些拼图用于约束物体运动。如果对象不是另一个对象的父级，则约束将在世界空间中起作用。否则它们将在父对象的空间中工作 - 您可以在3ds Max或Blender中选择父对象以显示坐标轴。
 
 ＃
 
@@ -918,7 +920,7 @@ Verge3D附带一个免费的Wordpress插件，可以处理这个谜题提交的�
 
 ### 后期处理
 
-这些谜题用于设置各种后处理效果。
+这些拼图用于设置各种后处理效果。
 
 ＃
 
@@ -976,7 +978,7 @@ Verge3D附带一个免费的Wordpress插件，可以处理这个谜题提交的�
 
 * 您可以通过单击**Create variable ...**按钮**创建变量，**然后为其选择任何名称。名称，无论它出现在程序中的哪个位置，都可以随时通过变量的下拉菜单进行更改。
 * 过程可以定义输入，这些输入创建只能在过程中使用的变量。这些传统上称为参数或参数。
-* 每个“count with”和“for each”谜题都使用变量并定义其值。这些值只能在拼图中使用。
+* 每个“count with”和“for each”拼图都使用变量并定义其值。这些值只能在拼图中使用。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-variables-create.jpg)
 
@@ -988,7 +990,7 @@ Verge3D附带一个免费的Wordpress插件，可以处理这个谜题提交的�
 
 **“组”**
 
-这个谜题为变量赋值。
+这个拼图为变量赋值。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-variables-set.jpg)
 
@@ -996,7 +998,7 @@ Verge3D附带一个免费的Wordpress插件，可以处理这个谜题提交的�
 
 **“得到”**
 
-此谜题提供存储在变量中的值，而不更改它。
+此拼图提供存储在变量中的值，而不更改它。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-variables-get.jpg)
 
@@ -1012,25 +1014,25 @@ Verge3D附带一个免费的Wordpress插件，可以处理这个谜题提交的�
 
 ### 程序
 
-过程（又称函数）是执行特定任务的一组命名的谜题。通过在程序中组织您的谜题，您可以使您的场景更紧凑和可维护。
+过程（又称函数）是执行特定任务的一组命名的拼图。通过在程序中组织您的拼图，您可以使您的场景更紧凑和可维护。
 
-通过从工具箱中拖出过程定义谜题，可以创建一个新过程：
+通过从工具箱中拖出过程定义拼图，可以创建一个新过程：
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-procedures-create.jpg)
 
-可以重新命名新创建的程序谜题并填充其他谜题以执行某项任务：
+可以重新命名新创建的程序拼图并填充其他拼图以执行某项任务：
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-procedures-create2.jpg)
 
-要能够触发（调用）过程，请从工具箱中拖出相应的谜题：
+要能够触发（调用）过程，请从工具箱中拖出相应的拼图：
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-procedures-trigger.jpg)
 
-可以从Puzzles场景的多个位置触发多次过程。这可以允许重复使用谜题而不是直接复制类似的谜题数次。例如，只要用户单击对象本身或HTML按钮（因此保护重复控件），就可以启动动画。
+可以从Puzzles场景的多个位置触发多次过程。这可以允许重复使用拼图而不是直接复制类似的拼图数次。例如，只要用户单击对象本身或HTML按钮（因此保护重复控件），就可以启动动画。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-procedures-trigger2.jpg)
 
-过程可能具有其他输入参数（也称为参数）。要在程序中添加输入，请单击齿轮图标并从左侧的工具箱中拖出参数谜题，将其粘贴在输入谜题中：
+过程可能具有其他输入参数（也称为参数）。要在程序中添加输入，请单击齿轮图标并从左侧的工具箱中拖出参数拼图，将其粘贴在输入拼图中：
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-procedures-inputs.jpg)
 
@@ -1062,7 +1064,7 @@ Verge3D附带一个免费的Wordpress插件，可以处理这个谜题提交的�
 
 **“如果回归”**
 
-在解释所有内部谜题之前，过程可以在某些条件下返回值。在这种情况下，程序会过早停止运行。
+在解释所有内部拼图之前，过程可以在某些条件下返回值。在这种情况下，程序会过早停止运行。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-procedures-if-return.jpg)
 
@@ -1090,7 +1092,7 @@ Verge3D附带一个免费的Wordpress插件，可以处理这个谜题提交的�
 
 ### 图书馆
 
-库是一组持久存储，用于在多个项目中重复使用的谜题组。您可以通过右键单击拼图组并选择“ **将N拼图保存到库** ”选项，**将拼图组添加到库中**。在模态窗口中键入组的名称，因为它将出现在库的条目列表中（通过重新加载Puzzle编辑器来刷新它）。
+库是一组持久存储，用于在多个项目中重复使用的拼图组。您可以通过右键单击拼图组并选择“ **将N拼图保存到库** ”选项，**将拼图组添加到库中**。在模态窗口中键入组的名称，因为它将出现在库的条目列表中（通过重新加载Puzzle编辑器来刷新它）。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-library-save.jpg)
 
