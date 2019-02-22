@@ -2,34 +2,35 @@
 
 * [欢迎访问Verge3D中文用户手册](README.md)
 
-## 入门指引
+## 入门指引（Getting Started）
 
-* [入门指南](getting-started/beginners-guide-featured.md)
-* [工作流程](getting-started/gong-zuo-liu-cheng.md)
-* [拼图](getting-started/pin-tu.md)
-* [项目结构](getting-started/xiang-mu-jie-gou.md)
-* [更新版本](getting-started/geng-xin-ban-ben.md)
+* [入门指南（Beginner's Guide）](getting-started/beginners-guide-featured.md)
+* [工作流程（Beginner's Guide）](getting-started/gong-zuo-liu-cheng.md)
+* [拼图（Puzzles）](getting-started/pin-tu.md)
+* [项目结构（Project Structure）](getting-started/xiang-mu-jie-gou.md)
+* [更新版本（Updating for New Versions）](getting-started/geng-xin-ban-ben.md)
 * [FAQ](getting-started/faq.md)
-* [常用链接](getting-started/chang-yong-lian-jie.md)
+* [实用链接（Useful Links）](getting-started/chang-yong-lian-jie.md)
 
-## 一般主题
+## 一般主题（General Topics）
 
-* [资产压缩](yi-ban-zhu-ti/zi-chan-ya-suo.md)
-* [基于HTML的用户界面](yi-ban-zhu-ti/ji-yu-html-de-yong-hu-jie-mian.md)
-* [在Facebook发布3D主题](yi-ban-zhu-ti/facebook-3d-posts.md)
-* [AR / VR开发](yi-ban-zhu-ti/ar-vr-kai-fa.md)
-* [Wordpress插件](yi-ban-zhu-ti/wordpress-cha-jian.md)
-* [使用JavaScript](yi-ban-zhu-ti/shi-yong-javascript.md)
-* [在移动浏览器上进行测试](yi-ban-zhu-ti/zai-yi-dong-lan-qi-shang-jin-hang-ce-shi.md)
+* [资产压缩（Asset Compression）](yi-ban-zhu-ti/zi-chan-ya-suo.md)
+* [基于HTML的用户界面（HTML-Based User Interfaces）](yi-ban-zhu-ti/ji-yu-html-de-yong-hu-jie-mian.md)
+* [在Facebook发布3D主题（Facebook 3D Posts）](yi-ban-zhu-ti/facebook-3d-posts.md)
+* [AR / VR开发（AR/VR Development）](yi-ban-zhu-ti/ar-vr-kai-fa.md)
+* [Wordpress插件（Wordpress Plugin）](yi-ban-zhu-ti/wordpress-cha-jian.md)
+* [使用JavaScript（Using JavaScript）](yi-ban-zhu-ti/shi-yong-javascript.md)
+* [在移动浏览器上进行（Testing on Mobile Browsers）](yi-ban-zhu-ti/zai-yi-dong-lan-qi-shang-jin-hang-ce-shi.md)
 
-## 3ds Max 艺术家指南
+## 3ds Max 艺术家指南（3ds Max Artist's Guide）
 
-* [​为3ds Max安装Verge3D​](3ds-max-artists-guide/installation-verge3d-for-3ds-max.md)
+* [​为3ds Max安装Verge3D​（Installation）](3ds-max-artists-guide/installation-verge3d-for-3ds-max.md)
+* [（Material Systems）](3ds-max-artists-guide/material-systems.md)
 * [Physical Material](3ds-max-artists-guide/physical-material.md)
 
 ## Blender A艺术家指南
 
-* [为Blender安装Verge3D](blender-artists-guide/installation-verge3d-for-blender.md)
+* [为Blender安装Verge3D（Installation）](blender-artists-guide/installation-verge3d-for-blender.md)
 * [Physical Material](blender-artists-guide/physical-material.md)
 
 ## Advanced Topics

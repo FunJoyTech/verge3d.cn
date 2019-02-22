@@ -1,4 +1,4 @@
-# 为Blender安装Verge3D
+# 为Blender安装Verge3D（Installation）
 
 经正确安装，Verge3D可运行于开源3D建模与动画软件Blender中，支持2.79b及2.80版。您可以从[Blender官方网站](https://www.blender.org/download/)免费下载该软件。
 

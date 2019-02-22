@@ -2,7 +2,7 @@
 description: 待校订
 ---
 
-# 项目结构
+# 项目结构（Project Structure）
 
 ## 项目结构
 

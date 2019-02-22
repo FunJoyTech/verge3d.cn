@@ -2,7 +2,7 @@
 description: 已完成
 ---
 
-# 入门指南
+# 入门指南（Beginner's Guide）
 
 ## 入门指南（Beginner's Guide）
 
