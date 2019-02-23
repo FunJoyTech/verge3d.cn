@@ -1,2 +1,0 @@
-# Scene data compression
-
