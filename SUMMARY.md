@@ -9,7 +9,7 @@
 * [拼图工具](getting-started/puzzles.md)
 * [项目结构](getting-started/project-structure.md)
 * [更新版本](getting-started/updating-for-new-versions.md)
-* [常问问题](getting-started/faq.md)
+* [常见问题](getting-started/faq.md)
 * [实用链接](getting-started/useful-links.md)
 
 ## 一般主题（General Topics）

@@ -2,14 +2,14 @@
 description: FAQ 待校订
 ---
 
-# 常问问题
+# 常见问题
 
-## 常问问题
+## 常见问题
 
 以下是有关使用Verge3D的一些常见问题。
 
 * 许可
-* 一般的问题
+* 一般问题
 * 编程问题
 
 ＃
@@ -20,7 +20,7 @@ description: FAQ 待校订
 
 许可证是根据每个人（个人）或每个实体（团队，企业）分配的。安装数量不受限制。如果是“个人”选项，则只有一个人可以使用Verge3D。另一方面，对公司或组织内的用户数量没有限制。
 
-#### Verge3D试用版有哪些限制/限制？我可不可以做 ... ？
+#### Verge3D试用版有哪些限制/限制？我可以做些什么？
 
 对该问题的快速回答是引用我们的许可协议。Verge3D EULA声明：“该软件的试用版可从Soft8Soft网站免费下载，仅供测试之用。禁止在生产环境中出于商业或非商业目的使用。” 。
 
@@ -28,7 +28,7 @@ description: FAQ 待校订
 
 ＃
 
-### 一般的问题
+### 一般问题
 
 #### 当我在Chrome中打开它时，我的应用程序无法加载 - 但是当它从App Manager运行或在Firefox中打开时它可以正常运行...
 
@@ -42,7 +42,7 @@ description: FAQ 待校订
 
 #### 我可以将场景导出到独立的全内置HTML文件吗？
 
-不，Verge3D没有提供全面的HTML格式。如果您需要独立的可执行文件，可以尝试使用[Electron](https://electronjs.org/)进行转换。
+不可以，Verge3D没有提供全面的HTML格式。如果您需要独立的可执行文件，可以尝试使用[Electron](https://electronjs.org/)进行转换。
 
 #### 有计划支持Maxon Cinema 4D吗？可能是Autodesk Maya？
 
@@ -50,7 +50,9 @@ description: FAQ 待校订
 
 #### Verge3D应用程序可以在Internet Explorer 11中运行吗？
 
-是。在应用创建面板中启用IE 11兼容模块。![](https://www.soft8soft.com/docs/files/faq/ie11-compat-module.jpg)
+是。在应用创建面板中启用IE 11兼容模块。
+
+![](https://www.soft8soft.com/docs/files/faq/ie11-compat-module.jpg)
 
 #### 如何将拼图复制到另一个项目中？
 
@@ -58,7 +60,7 @@ description: FAQ 待校订
 
 #### 声音不在iOS上播放...
 
-看看如何解决这个[问题](https://www.soft8soft.com/docs/manual/en/introduction/Workflow.html#Audio_)。
+如何解决这个问题看[这里](https://www.soft8soft.com/docs/manual/en/introduction/Workflow.html#Audio_)。
 
 #### Verge3D可以使用哪些3D格式？
 
@@ -76,7 +78,11 @@ Verge3D能够加载各种格式，包括glTF，OBJ，FBX，COLLADA，STL和PLY�
 
 #### 为什么示例中有元视口标记？
 
-`<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">`
+
+
+```
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+```
 
 这些标记控制移动浏览器的视口大小和比例（其中页面内容可以以与可见视口不同的大小呈现）。
 
@@ -84,19 +90,45 @@ Verge3D能够加载各种格式，包括glTF，OBJ，FBX，COLLADA，STL和PLY�
 
 #### 如何在调整大小时保留场景比例？
 
-我们希望所有对象（无论与相机的距离如何）都显示相同的大小，即使窗口调整大小也是如此。解决这个问题的关键方程是给定距离处可见高度的公式： 如果我们将窗高增加一定百分比，那么我们想要的是所有距离的可见高度增加相同的百分比。这不能通过改变相机位置来完成。相反，您必须更改摄像机视野。 [例子](http://jsfiddle.net/Q4Jpu/)。`visible_height = 2 * Math.tan((Math.PI / 180) * camera.fov / 2) * distance_from_camera;`
+我们希望所有对象（无论与相机的距离如何）都显示相同的大小，即使窗口调整大小也是如此。解决这个问题的关键方程是给定距离处可见高度的公式： 如果我们将窗高增加一定百分比，那么我们想要的是所有距离的可见高度增加相同的百分比。这不能通过改变相机位置来完成。相反，您必须更改摄像机视野。 [例子](http://jsfiddle.net/Q4Jpu/)。
 
-#### 为什么我的对象的一部分不可见？
+```
+isible_height = 2 * Math.tan((Math.PI / 180) * camera.fov / 2) * distance_from_camera;
+```
 
-这可能是因为面部剔除。面具有一个方向，决定哪一面是哪一面。在正常情况下，剔除会消除背面。要查看这是否是您的问题，请将材料面更改为v3d.DoubleSide。`material.side = v3d.DoubleSide`
+#### 为什么我的物体一部分不可见？
+
+这可能是因为面被剔除了。面具有一个方向，决定哪一面是正面。在正常情况下，剔除会消除背面。要查看这是否是您的问题，请将材料面更改为v3d.DoubleSide。`material.side = v3d.DoubleSide`
 
 #### 我的应用程序窗口在iOS设备上无休止地增长。怎么解决？
 
 如果在iframe元素中嵌入Verge3D应用程序，则可能会遇到iOS设备上的特定问题，这会导致iframe的大小不断超出浏览器窗口的范围。这反过来可能导致WebGL崩溃。
 
-要解决此问题，您可以使用以下代码段，该代码段会将iframe的大小调整为页面的正文，以防止所述iframe超出它。`<script> if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) { var iframe = document.getElementById('myIframe'); function resize() { iframe.style.width = getComputedStyle(document.body).width; iframe.style.height = getComputedStyle(document.body).height; iframe.setAttribute('scrolling', 'no'); } iframe.addEventListener('resize', function(e) { resize(); }); resize(); } </script>`
+要解决此问题，您可以使用以下代码段，该代码段会将iframe的大小调整为页面的正文，以防止所述iframe超出它。
+
+```
+<script>
+if (/(iPad|iPhone|iPod)/g.test(navigator.userAgent)) {
+    var iframe = document.getElementById('myIframe');
+    function resize() {
+        iframe.style.width = getComputedStyle(document.body).width;
+        iframe.style.height = getComputedStyle(document.body).height;
+        iframe.setAttribute('scrolling', 'no');
+    }
+    iframe.addEventListener('resize', function(e) {
+        resize();
+    });
+
+    resize();
+}
+</script>
+```
 
 #### 键盘控件不适用于嵌入在iframe中的应用
 
-当页面上的其他HTML得到关注时，就会发生这种情况。要解决此问题，请尝试以下代码： 其中**my\_iframe\_id**是iframe元素的ID。`document.getElementById("my_iframe_id").focus();`
+当页面上的其他HTML得到关注时，就会发生这种情况。要解决此问题，请尝试以下代码： 其中**my\_iframe\_id**是iframe元素的ID。
+
+```
+document.getElementById("my_iframe_id").focus();
+```
 
