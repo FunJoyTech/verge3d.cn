@@ -194,7 +194,9 @@ You've created a web application and probably want the billions of Internet user
 
 您已经创建了一个Web应用程序，可能希望数十亿的Internet用户来查看它。如果您拥有一个网站，这不会是一个问题 - 只需将您的应用程序的整个文件夹上传到您的服务器（例如，通过FTP）。部署后，您可以在网站上的某个位置提供应用HTML文件的链接，或将其嵌入带有iframe HTML元素的网页中：
 
-`<iframe width="1024" height="640" allowfullscreen src="https://www.example.com/my_awesome_app/my_awesome_app.html"></iframe>`
+```
+<iframe width="1024" height="640" allowfullscreen src="https://www.example.com/my_awesome_app/my_awesome_app.html"></iframe>
+```
 
 **Using Wordpress...** 
 
