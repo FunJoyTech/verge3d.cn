@@ -6,11 +6,11 @@ description: Updating for New Versions  ——fastest已校订
 
 Verge3D正在积极开发，定期发布软件版本。还有预发布的更新频道，新版本更频繁地推出。我们建议您跟上开发周期并及时更新Verge3D分发和应用程序。
 
-* 更新Verge3D安装
-* 更新应用程序 - 方法＃1（自动）
-* 更新应用程序 - 方法＃2（纯净）
-* 更新后
-* 已知问题和故障排除
+* 更新Verge3D安装（Update Verge3D Installation）
+* 更新应用程序 - 方法＃1（自动）（Update Applications - Method \#1 \(Automatic\)）
+* 更新应用程序 - 方法＃2（纯净）（Update Applications - Method \#2 \(Clean\)）
+* 更新后（After Update）
+* 已知问题和故障排除（Known Issues and Troubleshooting）
 
 ＃
 

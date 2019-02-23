@@ -6,9 +6,9 @@ description: FAQ ——fastest已校订
 
 以下是有关使用Verge3D的一些常见问题。
 
-* 许可
-* 一般问题
-* 编程问题
+* 许可（Licensing）
+* 一般问题（General Questions）
+* 编程问题（Programming Questions）
 
 ＃
 
