@@ -1,10 +1,8 @@
 ---
-description: FAQ 待校订
+description: FAQ ——fastest已校订
 ---
 
 # 常见问题
-
-## 常见问题
 
 以下是有关使用Verge3D的一些常见问题。
 
@@ -14,7 +12,7 @@ description: FAQ 待校订
 
 ＃
 
-### 许可
+### 许可（Licensing）
 
 #### 可以安装Verge3D的计算机数量？有多少用户可以使用单一许可证？
 
@@ -28,7 +26,7 @@ description: FAQ 待校订
 
 ＃
 
-### 一般问题
+### 一般问题（General Questions）
 
 #### 当我在Chrome中打开它时，我的应用程序无法加载 - 但是当它从App Manager运行或在Firefox中打开时它可以正常运行...
 
@@ -70,7 +68,7 @@ Verge3D能够加载各种格式，包括glTF，OBJ，FBX，COLLADA，STL和PLY�
 
 ＃
 
-### 编程问题
+### 编程问题（Programming Questions）
 
 #### 你说Verge3D基于Three.js。它与Three.js API兼容吗？
 
