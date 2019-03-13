@@ -26,7 +26,7 @@ Verge3D的Puzzles编辑器是开发任何复杂的智能Web应用程序的强大
 * 变量\(Variables\)
 * 程序\(Procedures\)
 * 调试\(Debug\)
-* 图书馆\(Library\)
+* 库\(Library\)
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-editor.jpg)
 
@@ -1090,7 +1090,7 @@ Verge3D附带一个免费的Wordpress插件，可以处理这个拼图提交的�
 
 ＃
 
-### 图书馆
+### 拼图库
 
 库是一组持久存储，用于在多个项目中重复使用的拼图组。您可以通过右键单击拼图组并选择“ **将N拼图保存到库** ”选项，**将拼图组添加到库中**。在模态窗口中键入组的名称，因为它将出现在库的条目列表中（通过重新加载Puzzle编辑器来刷新它）。
 
