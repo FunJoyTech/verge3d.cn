@@ -35,7 +35,7 @@ Both the 3ds Max and Blender versions of Verge3D can be used with equal success.
 
 ### 建模和烘焙 （Modeling and Baking）
 
-n our team, we practice the following modeling pipeline. At first, high-poly versions of models are created. At the next stage, low- to middle-poly models are obtained via simply removing the subsurf modifier or retopology. No more than 100k tris per model is recommended.
+In our team, we practice the following modeling pipeline. At first, high-poly versions of models are created. At the next stage, low- to middle-poly models are obtained via simply removing the subsurf modifier or retopology. No more than 100k tris per model is recommended.
 
 在我们的团队中，使用以下建模流程。首先，创建高精度的模型。在下一阶段，通过简单地移除**suburf修改器**或**拓扑方式（retopology）**获得低面到中等面模型。模型建议不超过10万三角面片。
 
@@ -59,7 +59,7 @@ We recommend 3ds Max artists to use standard/Scanline or physical/ART \(v. 2017 
 
 You may also check out the following videos explaining how to use physically-based materials: [3ds Max](https://www.youtube.com/watch?v=s_QjxCr8I6k), [Blender](https://www.youtube.com/watch?v=wQ0KH4bA3Uw).
 
-您还可以查看以下视频，了解如何使用基于物理的材料：[3ds Max](https://www.youtube.com/watch?v=s_QjxCr8I6k)，[Blender](https://www.youtube.com/watch?v=wQ0KH4bA3Uw)。
+您还可以查看以下视频，了解如何使用基于物理的材质：[3ds Max](https://www.youtube.com/watch?v=s_QjxCr8I6k)，[Blender](https://www.youtube.com/watch?v=wQ0KH4bA3Uw)。
 
 ＃
 
@@ -89,7 +89,7 @@ The resolution of the textures should follow power the power-of-two rule \(256, 
 
 纹理的分辨率应遵循二次幂规则的功率（256,512,1024 px很好而1000 px很差）。无论如何，引擎在加载时重新调整所有非二次幂（NPOT）图像，因此请仔细检查纹理，以便在文件大小和加载时间方面实现最高效率。
 
-#### 方面（spect）
+#### 比例（spect）
 
 Textures may be square or rectangular such as 1024x512 px.
 
