@@ -6,7 +6,7 @@ description: Puzzles ——fastest校订中···
 
 Verge3D的Puzzles编辑器是开发任何复杂的智能Web应用程序的强大工具。通过Puzzles，您可以轻松地将行为场景添加到3D内容中，使其具有交互性并响应用户操作。这个神奇的工具既可用于快速原型制作，也可用于生产。对于3D艺术家来说，这个宝贵的工具克服了Web开发的技术障碍，从而可以将他们的创造力应用于交互式3D Web领域。
 
-    未描述功能Logic Loops Text Numbers Lists Dicts 
+Puzzles编辑器中的拼图根据下面指定的类别进行分组。
 
 * 初始化\(Initialization\)
 * 事件\(Events\)

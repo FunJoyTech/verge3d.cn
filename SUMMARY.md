@@ -7,6 +7,7 @@
 * [初学指南](getting-started/beginners-guide.md)
 * [工作流程](getting-started/workflow.md)
 * [拼图工具](getting-started/puzzles.md)
+* [功能特性](getting-started/features.md)
 * [项目结构](getting-started/project-structure.md)
 * [更新版本](getting-started/updating-for-new-versions.md)
 * [常见问题](getting-started/faq.md)

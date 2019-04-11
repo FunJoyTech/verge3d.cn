@@ -6,7 +6,7 @@ description: Workflow ——fastest已校订
 
 Below is documented a typical workflow that is used internally by the Soft8Soft team and by Verge3D users \(examples include the [Scooter Configurator](https://cdn.soft8soft.com/demo/applications/scooter/index.html) demo, [Teapot Heater](https://cdn.soft8soft.com/demo/applications/teapot_heater_max/index.html) demo, [Industrial Robot​](https://cdn.soft8soft.com/demo/applications/industrial_robot/index.html) demo, [e-commerce website](https://cdn.soft8soft.com/demo/applications/recliner_max/index.html) mock-up among others\).
 
-下面是由Soft8Soft团队和Verge3D用户内部使用的一个典型的工作流程（案例包括[滑板车配置](https://cdn.soft8soft.com/demo/applications/scooter/index.html)演示，[茶壶加热器](https://cdn.soft8soft.com/demo/applications/teapot_heater_max/index.html)演示，[工业机器人](https://cdn.soft8soft.com/demo/applications/industrial_robot/index.html)演示，[电子商务网站](https://cdn.soft8soft.com/demo/applications/recliner_max/index.html)实体模型等）。
+下面是由Soft8Soft团队和Verge3D用户内部使用的一个典型的工作流程（案例包括[摩托车配置](https://cdn.soft8soft.com/demo/applications/scooter/index.html)演示，[茶壶加热器](https://cdn.soft8soft.com/demo/applications/teapot_heater_max/index.html)演示，[工业机器人](https://cdn.soft8soft.com/demo/applications/industrial_robot/index.html)演示，[电子商务网站](https://cdn.soft8soft.com/demo/applications/recliner_max/index.html)实体模型等）。
 
 1. 建模和烘焙 （Modeling and Baking）
 2. 选择材质系统（Choosing Material System）
@@ -27,7 +27,7 @@ Below is documented a typical workflow that is used internally by the Soft8Soft 
 
 Both the 3ds Max and Blender versions of Verge3D can be used with equal success.
 
-**3ds Max**和**Blender**版本的**Verge3D**都可以同样成功使用。
+**3ds Max**和**Blender**版本的**Verge3D**都可以同样成功使用这些案例。
 
 ![](https://www.soft8soft.com/docs/files/workflow/teapot-heater.jpg)
 
@@ -43,7 +43,7 @@ In our team, we practice the following modeling pipeline. At first, high-poly ve
 
 The low-poly models are then UV-unwrapped. Finally, the meshes are triangulated - this is not a requirement of Verge3D but rather recommended for baking maps. Also, triangulated models are better suited for loading to third-party editors such as Substance Painter.
 
-然后对低面模型进行展UV。最后，网格是三角形的 - 这并不是**Verge3D**的要求，而是适合用于**烘焙贴图**。此外，三角模型更适合加载到第三方编辑器，如**Substance Painter**。
+然后对低面模型进行展UV。最后，网格是三角形的 - 这并不是**Verge3D**的要求，但更适用于**烘焙贴图**。此外，三角模型更适合加载到第三方编辑器，如**Substance Painter**。
 
 Normal and occlusion maps, if they are needed, are baked using the superimposed high-poly and triangulated low-poly meshes.
 
