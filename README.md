@@ -4,6 +4,10 @@
 
 > 注：中文手册基于官方英文手册编译 [http://soft8soft.com/docs](http://soft8soft.com/docs) 如有编译错误、疏漏，欢迎邮件 [verge3d@funjoy.tech](mailto:verge3d@funjoy.tech) 反馈！
 
+Soft8Soft官网：[https://www.soft8soft.com](https://www.soft8soft.com)
+
+Verge3D中国：[https://verge3d.funjoy.tech](https://verge3d.funjoy.tech)
+
 ## 入门指引
 
 #### [初学指南](getting-started/beginners-guide.md)
