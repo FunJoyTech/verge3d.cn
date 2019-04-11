@@ -1,5 +1,5 @@
 ---
-description: Verge3D工具包的特性与功能列表
+description: Verge3D工具包功能特性列表
 ---
 
 # 功能特性
@@ -117,76 +117,70 @@ description: Verge3D工具包的特性与功能列表
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Animation</td>
-      <td style="text-align:left">
-        <p>Verge3D supports the following types of animation:</p>
-        <ul>
-          <li>Skeletal armature-based animation.</li>
-          <li>Object transform animation, including position, rotation and scale.</li>
-          <li>Material params animation. Supported float and color parameters.</li>
-          <li>Morph target animation, also known as shape keys (Verge3D for Blender
-            only).</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
       <td style="text-align:left">&#x52A8;&#x753B;</td>
-      <td style="text-align:left">Verge3D&#x652F;&#x6301;&#x4EE5;&#x4E0B;&#x7C7B;&#x578B;&#x7684;&#x52A8;&#x753B;&#xFF1A;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Visual Programming</td>
       <td style="text-align:left">
-        <p><a href="http://soft8soft.com/docs/manual/en/introduction/Puzzles-Visual-Logic-Editor.html">Verge3D Puzzles</a> is
-          a visual logic environment which allows for quick creation of interactive
-          scenarios in a drag-and-drop fashion. It features blocks for:</p>
+        <p>Verge3D&#x652F;&#x6301;&#x4EE5;&#x4E0B;&#x7C7B;&#x578B;&#x7684;&#x52A8;&#x753B;&#xFF1A;</p>
         <ul>
-          <li>Handing user events, such as mouse clicks/touches, hovering and dragging.</li>
-          <li>Retrieving scene objects, animations, groups and materials.</li>
-          <li>Moving/rotating/scaling 3D objects, getting distance between objects.</li>
-          <li>Showing/hiding objects.</li>
-          <li>Changing objects&apos; hierarchy.</li>
-          <li>Adding 2D textual annotations (billboards) to the scene.</li>
-          <li>Changing material params, loading textures.</li>
-          <li>Controlling animations.</li>
-          <li>Moving, rotating cameras. Setting the active camera.</li>
-          <li>Dynamically loading assets.</li>
-          <li>Uploading/downloading data over network in JSON/CSV/Text format.</li>
-          <li>Loading user images.</li>
-          <li>Implementing Undo/Redo feature.</li>
-          <li>Composing and sending customer orders.</li>
-          <li>Detecting user capabilities such as browser, OS etc.</li>
-          <li>Interacting with logic written in JavaScript.</li>
-          <li>Executing timer-based events.</li>
-          <li>Initializing Virtual Reality sessions.</li>
-          <li>Managing HTML/CSS layouts of the loaded page.</li>
-          <li>Playing sounds.</li>
-          <li>Simulating physics environments.</li>
-          <li>Enabling post-processing effects.</li>
-          <li>Managing app logic and data.</li>
-          <li>Doing math.</li>
+          <li>&#x57FA;&#x4E8E;&#x9AA8;&#x9ABC;&#x9A71;&#x52A8;&#x7684;&#x52A8;&#x753B;</li>
+          <li>&#x5BF9;&#x8C61;&#x53D8;&#x6362;&#x52A8;&#x753B;&#xFF0C;&#x5305;&#x62EC;&#x4F4D;&#x7F6E;&#xFF0C;&#x65CB;&#x8F6C;&#x548C;&#x7F29;&#x653E;&#x3002;</li>
+          <li>&#x6750;&#x8D28;&#x53C2;&#x6570;&#x52A8;&#x753B;&#x3002;&#x652F;&#x6301;&#x6D6E;&#x70B9;&#x548C;&#x989C;&#x8272;&#x53C2;&#x6570;&#x3002;</li>
+          <li>&#x76EE;&#x6807;&#x878D;&#x5408;&#x52A8;&#x753B;&#xFF08;Morph target animation&#xFF09;&#xFF0C;&#x53C8;&#x79F0;&#x4E4B;&#x5F62;&#x72B6;&#x5E27;&#x52A8;&#x753B;&#xFF08;&#x4EC5;&#x9650;&#x4E8E;Verge3D
+            for Blender&#xFF09;</li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Programming</td>
+      <td style="text-align:left">&#x53EF;&#x89C6;&#x5316;&#x7F16;&#x7A0B;</td>
       <td style="text-align:left">
-        <p>Application functionality can be <a href="http://soft8soft.com/docs/manual/en/introduction/Using-JavaScript.html">added via JavaScript</a> by
-          modifying application sources or by integrating code in Puzzles.</p>
-        <p>Verge3D is based on open-source library Three.js and exposes its API via <b>v3d</b> or <b>THREE</b> namespace.
-          Therefore, it is possible to reuse any existing Three.js code with Verge3D.</p>
+        <p><a href="puzzles.md">Verge3D&#x62FC;&#x56FE;&#x7CFB;&#x7EDF;&#xFF08;Verge3D Puzzles&#xFF09;</a>&#x662F;&#x4E00;&#x79CD;&#x53EF;&#x89C6;&#x5316;&#x903B;&#x8F91;&#x73AF;&#x5883;&#xFF0C;&#x5141;&#x8BB8;&#x4EE5;&#x62D6;&#x653E;&#x65B9;&#x5F0F;&#x5FEB;&#x901F;&#x521B;&#x5EFA;&#x4EA4;&#x4E92;&#x5F0F;&#x573A;&#x666F;&#xFF0C;&#x62E5;&#x6709;&#x4EE5;&#x4E0B;&#x6A21;&#x5757;&#xFF1A;</p>
+        <ul>
+          <li>&#x5904;&#x7406;&#x7528;&#x6237;&#x4E8B;&#x4EF6;&#xFF0C;&#x4F8B;&#x5982;&#x9F20;&#x6807;&#x70B9;&#x51FB;/&#x89E6;&#x6478;&#xFF0C;&#x60AC;&#x505C;&#x548C;&#x62D6;&#x52A8;&#xFF1B;</li>
+          <li>&#x68C0;&#x7D22;&#x573A;&#x666F;&#x5BF9;&#x8C61;&#xFF0C;&#x52A8;&#x753B;&#xFF0C;&#x7EC4;&#x548C;&#x6750;&#x8D28;&#xFF1B;</li>
+          <li>&#x79FB;&#x52A8;/&#x65CB;&#x8F6C;/&#x7F29;&#x653E;3D&#x5BF9;&#x8C61;&#xFF0C;&#x83B7;&#x5F97;&#x5BF9;&#x8C61;&#x4E4B;&#x95F4;&#x7684;&#x8DDD;&#x79BB;&#xFF1B;</li>
+          <li>&#x663E;&#x793A;/&#x9690;&#x85CF;&#x5BF9;&#x8C61;&#xFF1B;</li>
+          <li>&#x66F4;&#x6539;&#x5BF9;&#x8C61;&#x7684;&#x5C42;&#x6B21;&#x7ED3;&#x6784;&#xFF1B;</li>
+          <li>&#x5C06;2D&#x6587;&#x672C;&#x6CE8;&#x91CA;&#xFF08;billboards&#xFF09;&#x6DFB;&#x52A0;&#x5230;&#x573A;&#x666F;&#x4E2D;&#xFF1B;</li>
+          <li>&#x6539;&#x53D8;&#x6750;&#x8D28;&#x53C2;&#x6570;&#xFF0C;&#x52A0;&#x8F7D;&#x7EB9;&#x7406;&#xFF1B;</li>
+          <li>&#x63A7;&#x5236;&#x52A8;&#x753B;&#xFF1B;</li>
+          <li>&#x79FB;&#x52A8;&#xFF0C;&#x65CB;&#x8F6C;&#x76F8;&#x673A;&#xFF1B;</li>
+          <li>&#x8BBE;&#x7F6E;&#x6709;&#x6E90;&#x6444;&#x50CF;&#x5934;&#xFF1B;</li>
+          <li>&#x52A8;&#x6001;&#x52A0;&#x8F7D;&#x8D44;&#x4EA7;&#xFF1B;</li>
+          <li>&#x901A;&#x8FC7;&#x7F51;&#x7EDC;&#x4EE5;JSON / CSV /&#x6587;&#x672C;&#x683C;&#x5F0F;&#x4E0A;&#x4F20;/&#x4E0B;&#x8F7D;&#x6570;&#x636E;&#xFF1B;</li>
+          <li>&#x52A0;&#x8F7D;&#x7528;&#x6237;&#x56FE;&#x50CF;&#xFF1B;</li>
+          <li>&#x5B9E;&#x73B0;&#x64A4;&#x6D88;/&#x91CD;&#x505A;&#x529F;&#x80FD;&#xFF1B;</li>
+          <li>&#x586B;&#x5199;&#x548C;&#x53D1;&#x9001;&#x5BA2;&#x6237;&#x8BA2;&#x5355;&#xFF1B;</li>
+          <li>&#x68C0;&#x6D4B;&#x7528;&#x6237;&#x529F;&#x80FD;&#xFF0C;&#x5982;&#x6D4F;&#x89C8;&#x5668;&#xFF0C;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7B49;&#xFF1B;</li>
+          <li>&#x4E0E;&#x7528;JavaScript&#x7F16;&#x5199;&#x7684;&#x903B;&#x8F91;&#x4E8B;&#x4EF6;&#x4EA4;&#x4E92;&#xFF1B;</li>
+          <li>&#x6267;&#x884C;&#x57FA;&#x4E8E;&#x8BA1;&#x65F6;&#x5668;&#x7684;&#x4E8B;&#x4EF6;&#xFF1B;</li>
+          <li>&#x521D;&#x59CB;&#x5316;&#x865A;&#x62DF;&#x73B0;&#x5B9E;&#x4F1A;&#x8BDD;&#x73AF;&#x5883;&#xFF1B;</li>
+          <li>&#x7BA1;&#x7406;&#x5DF2;&#x52A0;&#x8F7D;&#x9875;&#x9762;&#x7684;HTML /
+            CSS&#x5E03;&#x5C40;&#xFF1B;</li>
+          <li>&#x64AD;&#x653E;&#x58F0;&#x97F3;&#xFF1B;</li>
+          <li>&#x6A21;&#x62DF;&#x7269;&#x7406;&#x73AF;&#x5883;&#xFF1B;</li>
+          <li>&#x542F;&#x7528;&#x540E;&#x671F;&#x7279;&#x6548;&#x5904;&#x7406;&#xFF1B;</li>
+          <li>&#x7BA1;&#x7406;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x903B;&#x8F91;&#x548C;&#x6570;&#x636E;&#xFF1B;</li>
+          <li>&#x6267;&#x884C;&#x6570;&#x5B66;&#x8FD0;&#x7B97;&#xFF1B;</li>
+          <li>&#x2026;&#x2026;</li>
+        </ul>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Publishing</td>
+      <td style="text-align:left">&#x7F16;&#x7A0B;</td>
       <td style="text-align:left">
-        <p>You can distribute your content using:</p>
+        <p>&#x53EF;&#x4EE5;<a href="../general-topics/using-javascript.md">&#x4F7F;&#x7528;JavaScript&#x4FEE;&#x6539;</a>&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x6E90;&#x6587;&#x4EF6;&#x6216;&#x901A;&#x8FC7;&#x5728;Puzzles&#x4E2D;&#x96C6;&#x6210;&#x4EE3;&#x7801;&#x6765;&#x6DFB;&#x52A0;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x529F;&#x80FD;&#x3002;</p>
+        <p>Verge3D&#x57FA;&#x4E8E;&#x5F00;&#x6E90;&#x5E93;Three.js&#xFF0C;&#x5E76;&#x901A;&#x8FC7;<b>v3d</b>&#x6216;<b>THREE</b>&#x547D;&#x540D;&#x7A7A;&#x95F4;&#x516C;&#x5F00;&#x5176;API&#x3002;&#x56E0;&#x6B64;&#xFF0C;Verge3D&#x4E2D;&#x53EF;&#x4EE5;&#x590D;&#x7528;&#x4EFB;&#x4F55;&#x73B0;&#x6709;&#x7684;Three.js&#x4EE3;&#x7801;&#x3002;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x53D1;&#x5E03;</td>
+      <td style="text-align:left">
+        <p>&#x60A8;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4EE5;&#x4E0B;&#x65B9;&#x5F0F;&#x53D1;&#x5E03;&#x60A8;&#x7684;&#x521B;&#x4F5C;&#x5185;&#x5BB9;&#xFF1A;</p>
         <ul>
-          <li>You own server.</li>
-          <li>Any web hosting service (GoDaddy, DigitalOcean, Amazon AWS etc).</li>
-          <li>Verge3D Network.</li>
-          <li>Facebook (by using the <a href="http://soft8soft.com/docs/manual/en/introduction/Facebook-3D-Posts.html">3D posts</a> feature).</li>
-          <li>As stand-alone desktop or mobile application created with Electron or
-            Cordova frameworks.</li>
+          <li>&#x81EA;&#x6709;&#x670D;&#x52A1;&#x5668;&#xFF1B;</li>
+          <li>&#x4EFB;&#x610F;&#x7F51;&#x7EDC;&#x6258;&#x7BA1;&#x670D;&#x52A1;&#xFF08;&#x4E9A;&#x9A6C;&#x900A;AWS&#x3001;&#x963F;&#x91CC;&#x4E91;&#x3001;&#x817E;&#x8BAF;&#x4E91;&#x7B49;&#xFF09;&#xFF1B;</li>
+          <li>Verge3D&#x4E91;&#x670D;&#x52A1;&#xFF08;Verge3D &#xFF09;&#xFF1B;</li>
+          <li>Facebook&#xFF08;&#x4F7F;&#x7528;<a href="../general-topics/facebook-3d-posts.md">3D&#x4E3B;&#x9898;</a>&#x529F;&#x80FD;&#xFF09;&#xFF1B;</li>
+          <li>&#x4F7F;&#x7528;Electron&#x6216;Cordova&#x6846;&#x67B6;&#x521B;&#x5EFA;&#x7684;&#x72EC;&#x7ACB;&#x684C;&#x9762;&#x6216;&#x79FB;&#x52A8;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x3002;</li>
         </ul>
       </td>
     </tr>
@@ -203,55 +197,66 @@ description: Verge3D工具包的特性与功能列表
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Server-Side Features</td>
+      <td style="text-align:left">UI&#x4E0E;HTML&#x5E03;&#x5C40;</td>
       <td style="text-align:left">
-        <p>Verge3D comes with a <a href="http://soft8soft.com/docs/manual/en/introduction/Wordpress-Plugin.html">plug-in for WordPress</a>,
-          the most popular content management system (CMS) in use. The plug-in includes
-          the following features:</p>
+        <p>&#x4F7F;&#x7528;&#x5916;&#x90E8;&#x6240;&#x89C1;&#x65E2;&#x6240;&#x5F97;&#x7F16;&#x8F91;&#x5668;&#xFF08;WYSIWYG
+          editor&#xFF09;&#x521B;&#x5EFA;&#x7684;&#x754C;&#x9762;&#x5E03;&#x5C40;&#x53EF;&#x4EE5;
+          <a
+          href="../general-topics/html-based-user-interfaces.md">&#x4E0E;Puzzles&#x94FE;&#x63A5;</a>&#xFF0C;&#x4EE5;&#x89E6;&#x53D1;&#x5BF9;&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x5448;&#x73B0;&#x7684;3D&#x573A;&#x666F;&#x7684;&#x66F4;&#x6539;&#xFF0C;&#x53CD;&#x4E4B;&#x4EA6;&#x7136;&#x3002;</p>
+        <p>&#x4EE5;&#x4E0B;&#x7F51;&#x9875;&#x8BBE;&#x8BA1;&#x5DE5;&#x5177;&#x5DF2;&#x7ECF;&#x8FC7;&#x6D4B;&#x8BD5;&#x53EF;&#x7528;&#x4E8E;Verge3D&#x751F;&#x4EA7;&#x6D41;&#x7A0B;&#xFF1A;</p>
         <ul>
-          <li>Application hosting and publishing (embedding).</li>
-          <li>Persistent file storage.</li>
-          <li>Fully customizable e-commerce system for processing customer orders.</li>
-        </ul>
-        <p>In addition to that, the Puzzles visual logic editor supports blocks for
-          sending/retrieving data over network in JSON, CSV or plain text format.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Post-processing effects</td>
-      <td style="text-align:left">
-        <p>The following effects can be enabled with Puzzles:</p>
-        <ul>
-          <li>Ambient Occlusion</li>
-          <li>Bloom</li>
-          <li>Brightness/Contrast</li>
-          <li>Depth of Field</li>
-          <li>Grayscale</li>
-        </ul>
-        <p>In addition, the following effects can be enabled with JavaScript:</p>
-        <ul>
-          <li>Adaptive Tone Mapping</li>
-          <li>Crepuscular Rays (also known as sunbeams or god rays)</li>
-          <li>Enhanced Subpixel Morphological Anti-Aliasing (SMAA)</li>
-          <li>Glitch</li>
-          <li>Image Crossfading</li>
-          <li>Image Masking</li>
-          <li>Motion Blur</li>
-          <li>Pixelated Imagery</li>
-          <li>Sobel Filter</li>
-          <li>Supersampling Anti-Aliasing (SSAA)</li>
-          <li>Temporal Anti-Aliasing (TAA)</li>
+          <li>Webflow</li>
+          <li>Google Web Designer</li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Virtual Reality</td>
-      <td style="text-align:left">Both WebXR and WebVR (via compatibility support module) are <a href="http://soft8soft.com/docs/manual/en/introduction/AR-VR-development.html">supported</a>.</td>
+      <td style="text-align:left">&#x670D;&#x52A1;&#x5668;&#x7AEF;&#x529F;&#x80FD;</td>
+      <td style="text-align:left">
+        <p>Verge3D&#x9644;&#x5E26;&#x4E86;&#x4E00;&#x4E2A;<a href="../general-topics/wordpress-plugin.md">WordPress&#x63D2;&#x4EF6;</a>&#x3002;WordPress&#x662F;&#x76EE;&#x524D;&#x6700;&#x6D41;&#x884C;&#x7684;&#x5185;&#x5BB9;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&#xFF08;CMS&#xFF09;&#x3002;&#x8BE5;&#x63D2;&#x4EF6;&#x5305;&#x62EC;&#x4EE5;&#x4E0B;&#x529F;&#x80FD;&#xFF1A;</p>
+        <ul>
+          <li>&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x6258;&#x7BA1;&#x548C;&#x53D1;&#x5E03;&#xFF08;&#x5D4C;&#x5165;&#xFF09;</li>
+          <li>&#x957F;&#x671F;&#x6587;&#x4EF6;&#x5B58;&#x50A8;</li>
+          <li>&#x5B8C;&#x5168;&#x53EF;&#x5B9A;&#x5236;&#x7684;&#x7535;&#x5B50;&#x5546;&#x52A1;&#x7CFB;&#x7EDF;&#xFF0C;&#x7528;&#x4E8E;&#x5904;&#x7406;&#x5BA2;&#x6237;&#x8BA2;&#x5355;</li>
+        </ul>
+        <p>&#x9664;&#x6B64;&#x4E4B;&#x5916;&#xFF0C;Puzzles&#x53EF;&#x89C6;&#x5316;&#x903B;&#x8F91;&#x7F16;&#x8F91;&#x5668;&#x8FD8;&#x652F;&#x6301;&#x901A;&#x8FC7;&#x7F51;&#x7EDC;&#x4EE5;JSON&#xFF0C;CSV&#x6216;&#x7EAF;&#x6587;&#x672C;&#x683C;&#x5F0F;&#x53D1;&#x9001;/&#x68C0;&#x7D22;&#x6570;&#x636E;&#x7684;&#x6A21;&#x5757;&#x3002;</p>
+      </td>
     </tr>
     <tr>
-      <td style="text-align:left">Shaders</td>
-      <td style="text-align:left">Custom shaders can be added using OpenGL ES Shading Language 2.0 (WebGL
-        1.0) or 3.0 (WebGL 2.0).</td>
+      <td style="text-align:left">&#x540E;&#x671F;&#x7279;&#x6548;</td>
+      <td style="text-align:left">
+        <p>&#x62FC;&#x56FE;&#x7F16;&#x8F91;&#x5668;&#x4E2D;&#x53EF;&#x4EE5;&#x542F;&#x7528;&#x4EE5;&#x4E0B;&#x7279;&#x6548;&#xFF1A;</p>
+        <ul>
+          <li>&#x73AF;&#x5883;&#x5149;&#x906E;&#x853D;</li>
+          <li>&#x6CDB;&#x5149;&#x6548;&#x679C;&#xFF08;Bloom&#xFF09;</li>
+          <li>&#x4EAE;&#x5EA6;/&#x5BF9;&#x6BD4;&#x5EA6;</li>
+          <li>&#x666F;&#x6DF1;</li>
+          <li>&#x7070;&#x5EA6;</li>
+        </ul>
+        <p>&#x9664;&#x6B64;&#x4E4B;&#x5916;&#xFF0C;&#x53EF;&#x7528;JavaScript&#x542F;&#x7528;&#x4EE5;&#x4E0B;&#x6548;&#x679C;&#xFF1A;</p>
+        <ul>
+          <li>&#x81EA;&#x9002;&#x5E94;&#x8272;&#x8C03;&#x6620;&#x5C04;</li>
+          <li>&#x4E91;&#x9699;&#x5149;&#xFF08;&#x4E5F;&#x79F0;&#x4E3A;&#x795E;&#x5149;&#x6216;&#x5723;&#x5149;&#x6548;&#x679C;&#xFF09;</li>
+          <li>&#x589E;&#x5F3A;&#x7684;&#x4E9A;&#x50CF;&#x7D20;&#x5F62;&#x6001;&#x6297;&#x952F;&#x9F7F;&#xFF08;SMAA&#xFF09;</li>
+          <li>&#x6BDB;&#x523A;</li>
+          <li>&#x56FE;&#x50CF;&#x4EA4;&#x53C9;&#x6DE1;&#x5316;</li>
+          <li>&#x56FE;&#x50CF;&#x906E;&#x7F69;/&#x63A9;&#x853D;&#xFF08;Image Mask&#xFF09;</li>
+          <li>&#x8FD0;&#x52A8;&#x6A21;&#x7CCA;</li>
+          <li>&#x50CF;&#x7D20;&#x5316;&#x56FE;&#x50CF;</li>
+          <li>&#x7D22;&#x8D1D;&#x5C14;&#x8FC7;&#x6EE4;&#x5668;&#xFF08;Pixelated Imagery&#xFF09;</li>
+          <li>&#x8D85;&#x7EA7;&#x91C7;&#x6837;&#x6297;&#x952F;&#x9F7F;&#xFF08;SSAA&#xFF09;</li>
+          <li>&#x65F6;&#x95F4;&#x6027;&#x6297;&#x952F;&#x9F7F;&#xFF08;TAA&#xFF09;</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x865A;&#x62DF;&#x73B0;&#x5B9E;</td>
+      <td style="text-align:left"><a href="../general-topics/ar-vr-development.md">&#x652F;&#x6301;WebXR&#x548C;WebVR</a>&#xFF08;&#x901A;&#x8FC7;&#x517C;&#x5BB9;&#x6027;&#x652F;&#x6301;&#x6A21;&#x5757;&#xFF09;&#x3002;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x7740;&#x8272;&#x5668;</td>
+      <td style="text-align:left">&#x53EF;&#x4EE5;&#x4F7F;&#x7528;OpenGL ES&#x7740;&#x8272;&#x8BED;&#x8A00;2.0&#xFF08;WebGL
+        1.0&#xFF09;&#x6216;3.0&#xFF08;WebGL 2.0&#xFF09;&#x6DFB;&#x52A0;&#x81EA;&#x5B9A;&#x4E49;&#x7740;&#x8272;&#x5668;&#xFF08;Shaders&#xFF09;&#x3002;</td>
     </tr>
     <tr>
       <td style="text-align:left">Physics</td>
