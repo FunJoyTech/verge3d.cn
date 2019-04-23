@@ -30,7 +30,7 @@ Download and unpack the latest Verge3D bundle in a fresh folder with the same na
 
 By using the same name for the fresh folder you can avoid re-configuring paths in the 3D editor of your choice.
 
-通过对鲜文件夹使用相同的名称，可以避免在您选择的3D软件中重新配置路径。
+通过对新文件夹使用相同的名称，可以避免在您选择的3D软件中重新配置路径。
 
 ### 更新应用程序（Update Applications）
 

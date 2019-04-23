@@ -11,12 +11,18 @@ description: Useful Links ——fastest校订中
 
 使用[Verge3D论坛](https://www.soft8soft.com/forums/)进行讨论，问题，功能请求或工作。这也是展示您的项目的好地方。
 
+您也可是使用[Verge3D中国](https://verge3d.funjoy.tech/)的[工单系统](https://verge3d.funjoy.tech/helpdesk/)获得直接的一对一帮助。
+
 ### 教程（Tutorials）
 
 #### 初级水平
 
-* [Verge3D for 3ds Max Basics](https://www.youtube.com/playlist?list=PLMnTV0uuRMhR2zhXxPqAD8G9wp_LNIXZc)视频课程。
-* [Verge3D for Blender Basics](https://www.youtube.com/playlist?list=PLMnTV0uuRMhRn1QomhOqH4Rt_bSlDGXbP)视频课程。
+* [Verge3D for 3ds Max Basics](https://www.youtube.com/playlist?list=PLMnTV0uuRMhR2zhXxPqAD8G9wp_LNIXZc)视频课程
+  * YouTube: [https://www.youtube.com/playlist?list=PLMnTV0uuRMhR2zhXxPqAD8G9wp\_LNIXZc](https://www.youtube.com/playlist?list=PLMnTV0uuRMhR2zhXxPqAD8G9wp_LNIXZc)
+  * Bilibili: [https://www.bilibili.com/medialist/play/ml371819653](https://www.bilibili.com/medialist/play/ml371819653)
+* [Verge3D for Blender Basics](https://www.youtube.com/playlist?list=PLMnTV0uuRMhRn1QomhOqH4Rt_bSlDGXbP)视频课程
+  * YouTube: [https://www.youtube.com/playlist?list=PLMnTV0uuRMhRn1QomhOqH4Rt\_bSlDGXbP](https://www.youtube.com/playlist?list=PLMnTV0uuRMhRn1QomhOqH4Rt_bSlDGXbP)
+  * Bilibili: [https://www.bilibili.com/video/av46094065](https://www.bilibili.com/video/av46094065)
 
 #### 先进水平
 
@@ -26,14 +32,18 @@ description: Useful Links ——fastest校订中
 ### 画廊（Gallery）
 
 * [Gallery](https://www.soft8soft.com/gallery/) - 使用Verge3D创建的应用程序库。这是掌握Verge3D特性和功能的良好起点。
+* Gallery中文版 - 官方案例中文化及中国社区用户案例。
 
 ### 社交媒体（Social Media）
 
 * [Facebook上的Verge3D](https://www.facebook.com/soft8soft/) - 我们[在Verge3D上发布](https://www.facebook.com/soft8soft/)新闻和更新的主要渠道。
 * 官方[YouTube频道](https://www.youtube.com/channel/UCcZTsl1ciCnehDgES3WlTGw)。
 * [Twitter上的](https://twitter.com/soft8soft/) Verge3D - 新鲜的Verge3D新闻。
-* [Verge3D在Instagram上](https://www.instagram.com/soft8soft/)
+* [Verge3D在Instagram](https://www.instagram.com/soft8soft/)
 * [Reddit上的Verge3D](https://www.reddit.com/r/verge3d/) - 社区频道。
+* [Verge3D微信公众号](https://weixin.sogou.com/weixin?type=1&s_from=input&query=Verge3D) - 第一时间在手机上获得更新与学习资讯。
+* [Verge3D中文微博](https://weibo.com/verge3d) - @我们吧，发布你有趣的案例。
+* [Verge3D在Bilibili](https://space.bilibili.com/402774953) - 官方视频中文编译及加速服务。
 
 还可以使用**＃verge3d**或**＃3dweb**标签查找有关Verge3D框架的信息以及来自3D Web行业的最新更新。
 

@@ -92,7 +92,7 @@ Verge3D中国：[https://verge3d.funjoy.tech](https://verge3d.funjoy.tech)
 
 ## DEVELOPER REFERENCE 开发者参考 
 
-[Animation](developer-reference/developer-reference/animation.md)
+[Animation](developer-reference/animation/)
 
 [Animation / Tracks](https://app.gitbook.com/@funjoy/s/verge3d/developer-reference/developer-reference/animation-tracks)
 
