@@ -45,7 +45,7 @@ Verge3D支持加载以**.xz**文件格式压缩的场景文件，该文件格式
 
 ![](https://www.soft8soft.com/docs/files/scene_data_compression/lzma-max.jpg)
 
-搅拌机：
+Blender：
 
 ![](https://www.soft8soft.com/docs/files/scene_data_compression/lzma-blender.jpg)
 

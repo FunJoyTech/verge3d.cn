@@ -6,9 +6,7 @@ description: Beginner's Guide ——fastest已校订
 
 为便于初学者更准确理解Verge3D，初学指南为英中文对照，相关路径、菜单、按钮名称参照英文记忆，提高学习使用效率。
 
-```
-Verge3D
-```
+## Verge3D
 
 Verge3D是一款多功能的软件，您可以根据个人喜好来进行不同用途的应用。本指南仅介绍了如何构建工作流程的可能方法之一，因此请将其看作一种友好的推荐。唯一的先决条件是您应该具备3D编辑软件（Verge3D载体）Autodesk 3ds Max或者Blender的使用经验，。
 

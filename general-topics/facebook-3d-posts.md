@@ -78,7 +78,7 @@ It can be found inside the Verge3D [distribution](https://www.soft8soft.com/get-
 
 
 * Facebook要求你的GLB总量低于3Mb，越小越好。
-* 仅支持 符合glTF标准的PBR材料（[3ds Max](https://www.soft8soft.com/docs/manual/en/introduction/Physical-material.html)，[Blender](https://www.soft8soft.com/docs/manual/en/introduction/Physical-material-Blender.html)） - 如果不是这种情况，请考虑转换材料。
+* 仅支持 符合glTF标准的PBR材质（[3ds Max](https://www.soft8soft.com/docs/manual/en/introduction/Physical-material.html)，[Blender](https://www.soft8soft.com/docs/manual/en/introduction/Physical-material-Blender.html)） - 如果不是这种情况，请考虑转换材质。
 * PNG或JPEG文件必须用于纹理，并且每个维度必须为2的幂（例如256x512就可以）。
 * 纹理可以达到4k，尽管Facebook开发者建议将它们保持在2k以下。
 

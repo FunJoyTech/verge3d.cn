@@ -144,7 +144,7 @@ Puzzles编辑器中的拼图根据下面指定的类别进行分组。
 
 ### 选择（Selectors）
 
-此类别的拼图用于选择3D对象，组，动画片段和材料以适应其他拼图。
+此类别的拼图用于选择3D对象，组，动画片段和材质以适应其他拼图。
 
 ＃
 
@@ -180,7 +180,7 @@ Puzzles编辑器中的拼图根据下面指定的类别进行分组。
 
 ＃
 
-**“选择材料”**
+**“选择材质”**
 
 下拉列表包含场景中存在的所有材质的按字母顺序排列的列表。
 
@@ -310,7 +310,7 @@ Puzzles编辑器中的拼图根据下面指定的类别进行分组。
 
 ＃
 
-**“分配材料”**
+**“分配材质”**
 
 将材质指定给对象，完全替换旧材质。也适用于对象列表，组（或组列表）或所有对象拼图。
 
@@ -328,37 +328,37 @@ Puzzles编辑器中的拼图根据下面指定的类别进行分组。
 
 **“设置颜色”**
 
-设置为指定材料找到的颜色参数的R，G和B分量。
+设置为指定材质找到的颜色参数的R，G和B分量。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-materials-set-color.jpg)
 
-**对于3ds Max用户：**您可以在材质（标准或物理）中添加**控制器**，其名称将显示在下拉菜单中。此外，还可以访问标准或物理材料节点的漫反射（或“基础”）颜色输入。对于**符合glTF标准的PBR**材料，**基本颜色**和**发射**输入只能通过此拼图访问。
+**对于3ds Max用户：**您可以在材质（标准或物理）中添加**控制器**，其名称将显示在下拉菜单中。此外，还可以访问标准或物理材质节点的漫反射（或“基础”）颜色输入。对于**符合glTF标准的PBR材质**，**基本颜色**和**发射**输入只能通过此拼图访问。
 
-**对于Blender用户：**您可以在基于节点的材料（GLSL Internal，Cycles，Eevee）中添加**RGB**节点，它们的名称将显示在下拉菜单中。此外，还可以访问材料，扩展材料，BSDF Principled，BSDF Diffuse和BSDF Glossy节点的漫反射（或“基础”）颜色输入。对于**符合glTF标准的PBR材料**，**BaseColor**和**Emissive**输入只能通过此拼图访问。
+**对于Blender用户：**您可以在基于节点的材质（GLSL Internal，Cycles，Eevee）中添加**RGB**节点，它们的名称将显示在下拉菜单中。此外，还可以访问材质，扩展材质，BSDF Principled，BSDF Diffuse和BSDF Glossy节点的漫反射（或“基础”）颜色输入。对于**符合glTF标准的PBR材质**，**BaseColor**和**Emissive**输入只能通过此拼图访问。
 
 此拼图还可用于修改环境着色器。在下拉列表中，环境着色器的名称以“Verge3D\_Environment”开头。
 
-有关Verge3D用户可用材料的更多信息，请参阅本手册的材料系统概述章节：[3ds Max](https://www.soft8soft.com/docs/manual/en/introduction/Material-System-Max.html)，[Blender](https://www.soft8soft.com/docs/manual/en/introduction/Material-System-Blender.html)。
+有关Verge3D用户可用材质的更多信息，请参阅本手册的材质系统概述章节：[3ds Max](https://www.soft8soft.com/docs/manual/en/introduction/Material-System-Max.html)，[Blender](https://www.soft8soft.com/docs/manual/en/introduction/Material-System-Blender.html)。
 
 ＃
 
 **“设定值”**
 
-设置为指定材料找到的值参数。
+设置为指定材质找到的值参数。
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-materials-set-value.jpg)
 
-**对于3ds Max用户：**您可以在材质（标准或物理）中添加**控制器**，其名称将显示在下拉菜单中。在**符合glTF标准的PBR**材料的情况下，可以通过以下难题访问以下输入：金属度，粗糙度，凹凸比例，发射强度和环境图强度。
+**对于3ds Max用户：**您可以在材质（标准或物理）中添加**控制器**，其名称将显示在下拉菜单中。在**符合glTF标准的PBR材质**的情况下，可以通过以下难题访问以下输入：金属度，粗糙度，凹凸比例，发射强度和环境图强度。
 
-**对于Blender用户：**您可以在基于节点的材料（GLSL Internal，Cycles，Eevee）中添加**Value**节点，它们的名称将显示在下拉菜单中。在**符合glTF标准的PBR**材料的情况下，可以通过以下难题访问以下输入：金属度（PBR节点中的MetallicFactor），粗糙度（PBR节点中的RoughnessFactor），bumpScale（PBR节点中的NormalScale），emissiveIntesity（PBR节点中的EmissiveFactor）和envMapIntensity （未在PBR节点中显示）。
+**对于Blender用户：**您可以在基于节点的材质（GLSL Internal，Cycles，Eevee）中添加**Value**节点，它们的名称将显示在下拉菜单中。在**符合glTF标准的PBR材质**的情况下，可以通过以下难题访问以下输入：金属度（PBR节点中的MetallicFactor），粗糙度（PBR节点中的RoughnessFactor），bumpScale（PBR节点中的NormalScale），emissiveIntesity（PBR节点中的EmissiveFactor）和envMapIntensity （未在PBR节点中显示）。
 
 此拼图还可用于修改环境着色器。在下拉列表中，环境着色器的名称以“Verge3D\_Environment”开头。
 
-有关Verge3D用户可用材料的更多信息，请参阅本手册的材料系统概述章节：[3ds Max](https://www.soft8soft.com/docs/manual/en/introduction/Material-System-Max.html)，[Blender](https://www.soft8soft.com/docs/manual/en/introduction/Material-System-Blender.html)。
+有关Verge3D用户可用材质的更多信息，请参阅本手册的材质系统概述章节：[3ds Max](https://www.soft8soft.com/docs/manual/en/introduction/Material-System-Max.html)，[Blender](https://www.soft8soft.com/docs/manual/en/introduction/Material-System-Blender.html)。
 
 ＃
 
-**“得到材料”**
+**“获取材质”**
 
 检索分配给对象的材质的名称。如果为同一对象分配了多个材质，则返回第一个。
 

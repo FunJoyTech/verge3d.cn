@@ -26,13 +26,13 @@ Verge3D还提供了一种特殊模式，用于在渲染时禁用写入深度缓�
 
 在**材质设置\(material settings\)**的**Alpha模式\(** **Alpha Mode\)**下拉列表中 选择**添加\(Add\)**以启用添加**混合**。
 
-### 标准材料的透明度\(Transparency for Standard Materials\)
+### 标准材质的透明度\(Transparency for Standard Materials\)
 
 可以使用**材质设置\(material settings\)**中的**不透明度\(Opacity\)**调整标准材质的**透明度\(Transparency\)**。
 
 ![](https://www.soft8soft.com/docs/files/transparency-max/standard-simple.jpg)
 
-**标准材料\(standard materials\)**的**不透明度\(Opacity\)**输入可用于创建有趣的依赖关系，以获得更好的真实感。
+**标准材质\(standard materials\)**的**不透明度\(Opacity\)**输入可用于创建有趣的依赖关系，以获得更好的真实感。
 
 ![](https://www.soft8soft.com/docs/files/transparency-max/standard-falloff.jpg)
 
@@ -42,9 +42,9 @@ Verge3D还提供了一种特殊模式，用于在渲染时禁用写入深度缓�
 
 使用**Alpha模式**下拉列表在透明模式之间进行选择。
 
-### 物理材料的透明度\(Transparency for Physical Materials\)
+### 物理材质的透明度\(Transparency for Physical Materials\)
 
-可以使用相同名称的**材质设置\(material settings\)**调整物理材料的透明度，即**透明度\(Transparency\)**设置。
+可以使用相同名称的**材质设置\(material settings\)**调整物理材质的透明度，即**透明度\(Transparency\)**设置。
 
 ![](https://www.soft8soft.com/docs/files/transparency-max/physical-transparency.jpg)
 
@@ -54,7 +54,7 @@ Verge3D还提供了一种特殊模式，用于在渲染时禁用写入深度缓�
 
 使用**Alpha模式**下拉列表在透明模式之间进行选择。
 
-### 符合glTF标准的PBR材料的透明度\(Transparency for glTF-compliant PBR Materials\)
+### 符合glTF标准的PBR材质的透明度\(Transparency for glTF-compliant PBR Materials\)
 
 为了实现此类材质的透明度，应使用与物理材质的**透明度贴图**输入相关联的单独 Alpha贴图。
 

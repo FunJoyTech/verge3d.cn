@@ -30,7 +30,7 @@ The above-mentioned settings are pre-enabled for the default cube project.
 
 ### 扫描线/ ART渲染
 
-如果使用标准材料，Verge3D渲染尽可能接近Scanline渲染，如果使用物理材质，则尽可能接近ART渲染。因此，您可以在3ds Max中预览场景而无需导出以便更快地进行调整。
+如果使用标准材质，Verge3D渲染尽可能接近Scanline渲染，如果使用物理材质，则尽可能接近ART渲染。因此，您可以在3ds Max中预览场景而无需导出以便更快地进行调整。
 
 要选择渲染器，请单击“ **渲染”**菜单中的“ **渲染设置...** ” （F10）：![](https://www.soft8soft.com/docs/files/viewport-render-preview/render-settings.jpg)
 
