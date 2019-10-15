@@ -14,7 +14,7 @@ Verge3D中国：[https://verge3d.funjoy.tech](https://verge3d.funjoy.tech)
 
 #### [Verge3D工作流程](getting-started/workflow.md)
 
-#### [Puzzles拼图编辑器](getting-started/puzzles.md)
+#### [Puzzles拼图编辑器](getting-started/puzzles-visual-logic-editor.md)
 
 #### [Verge3D功能特性](getting-started/features.md)
 
@@ -22,7 +22,7 @@ Verge3D中国：[https://verge3d.funjoy.tech](https://verge3d.funjoy.tech)
 
 #### [更新版本](getting-started/updating-for-new-versions.md)
 
-#### [常见问题](getting-started/faq.md)
+#### [常见问题](getting-started/faq/)
 
 #### [实用链接](getting-started/useful-links.md)
 

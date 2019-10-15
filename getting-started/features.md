@@ -132,7 +132,7 @@ description: Verge3D工具包功能特性列表
     <tr>
       <td style="text-align:left">&#x53EF;&#x89C6;&#x5316;&#x7F16;&#x7A0B;</td>
       <td style="text-align:left">
-        <p><a href="puzzles.md">Verge3D&#x62FC;&#x56FE;&#x7CFB;&#x7EDF;&#xFF08;Verge3D Puzzles&#xFF09;</a>&#x662F;&#x4E00;&#x79CD;&#x53EF;&#x89C6;&#x5316;&#x903B;&#x8F91;&#x73AF;&#x5883;&#xFF0C;&#x5141;&#x8BB8;&#x4EE5;&#x62D6;&#x653E;&#x65B9;&#x5F0F;&#x5FEB;&#x901F;&#x521B;&#x5EFA;&#x4EA4;&#x4E92;&#x5F0F;&#x573A;&#x666F;&#xFF0C;&#x62E5;&#x6709;&#x4EE5;&#x4E0B;&#x6A21;&#x5757;&#xFF1A;</p>
+        <p><a href="puzzles-visual-logic-editor.md">Verge3D&#x62FC;&#x56FE;&#x7CFB;&#x7EDF;&#xFF08;Verge3D Puzzles&#xFF09;</a>&#x662F;&#x4E00;&#x79CD;&#x53EF;&#x89C6;&#x5316;&#x903B;&#x8F91;&#x73AF;&#x5883;&#xFF0C;&#x5141;&#x8BB8;&#x4EE5;&#x62D6;&#x653E;&#x65B9;&#x5F0F;&#x5FEB;&#x901F;&#x521B;&#x5EFA;&#x4EA4;&#x4E92;&#x5F0F;&#x573A;&#x666F;&#xFF0C;&#x62E5;&#x6709;&#x4EE5;&#x4E0B;&#x6A21;&#x5757;&#xFF1A;</p>
         <ul>
           <li>&#x5904;&#x7406;&#x7528;&#x6237;&#x4E8B;&#x4EF6;&#xFF0C;&#x4F8B;&#x5982;&#x9F20;&#x6807;&#x70B9;&#x51FB;/&#x89E6;&#x6478;&#xFF0C;&#x60AC;&#x505C;&#x548C;&#x62D6;&#x52A8;&#xFF1B;</li>
           <li>&#x68C0;&#x7D22;&#x573A;&#x666F;&#x5BF9;&#x8C61;&#xFF0C;&#x52A8;&#x753B;&#xFF0C;&#x7EC4;&#x548C;&#x6750;&#x8D28;&#xFF1B;</li>

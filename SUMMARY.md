@@ -6,11 +6,14 @@
 
 * [初学指南](getting-started/beginners-guide.md)
 * [工作流程](getting-started/workflow.md)
-* [拼图工具](getting-started/puzzles.md)
+* [拼图工具](getting-started/puzzles-visual-logic-editor.md)
 * [功能特性](getting-started/features.md)
 * [项目结构](getting-started/project-structure.md)
 * [更新版本](getting-started/updating-for-new-versions.md)
-* [常见问题](getting-started/faq.md)
+* [常见问题](getting-started/faq/README.md)
+  * [3D文件格式](getting-started/faq/3d-wen-jian-ge-shi.md)
+  * [SolidWorks](getting-started/faq/solidworks.md)
+  * [Revit](getting-started/faq/revit.md)
 * [实用链接](getting-started/useful-links.md)
 
 ## 一般主题（General Topics） <a id="general-topics"></a>
@@ -41,6 +44,29 @@
 * [透明度](blender-artists-guide/transparency.md)
 * [使用材质库](blender-artists-guide/material-library.md)
 * [视口预览](blender-artists-guide/viewport-preview.md)
+
+## 拼图参考 <a id="puzzles"></a>
+
+* [Initialization（初始化）](puzzles/initialization.md)
+* [Events（事件）](puzzles/events.md)
+* [Selectors（选择器）](puzzles/selectors.md)
+* [Objects](puzzles/objects.md)
+* [Materials](puzzles/materials.md)
+* [Animation](puzzles/animation.md)
+* [Camera](puzzles/camera.md)
+* [Scenes](puzzles/scenes.md)
+* [Misc](puzzles/misc.md)
+* [Time](puzzles/time.md)
+* [HTML](puzzles/html.md)
+* [AR/VR](puzzles/ar-vr.md)
+* [Sound](puzzles/sound.md)
+* [Physics](puzzles/physics.md)
+* [Post-processing](puzzles/post-processing.md)
+* [Dictionaries](puzzles/dictionaries.md)
+* [Variables](puzzles/variables.md)
+* [Procedures](puzzles/procedures.md)
+* [System](puzzles/system.md)
+* [Library](puzzles/library.md)
 
 ## 程序员指南（Programmer's Guide） <a id="programmers-guide"></a>
 

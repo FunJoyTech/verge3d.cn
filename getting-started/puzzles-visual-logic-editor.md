@@ -23,9 +23,10 @@ Puzzles编辑器中的拼图根据下面指定的类别进行分组。
 * 声音\(Sound\)
 * 约束\(Constraints\) 
 * 后期处理\(Post-processing\)
+* 字典\(Dictionaries\)
 * 变量\(Variables\)
 * 程序\(Procedures\)
-* 调试\(Debug\)
+* 系统\(System\)
 * 库\(Library\)
 
 ![](https://www.soft8soft.com/docs/files/puzzles/puzzles-editor.jpg)
