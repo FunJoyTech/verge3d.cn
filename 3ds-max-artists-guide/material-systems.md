@@ -6,9 +6,9 @@ description: Material Systems ——fastest已校订
 
 Verge3D支持3ds Max中提供的以下类型的材质：
 
-* 物理与技术作为参考\(Physical with ART as reference 要求3ds Max 2017或更高版本）
-* 标准以Scanline为参考\(Standard with Scanline as reference\)
-* 物理glTF兼容（Physical glTF-compliant 要求3ds Max 2017或更高版本）
+* 以ART渲染器为参考的物理材质\(Physical with ART as reference 要求3ds Max 2017或更高版本）
+* 以扫描线渲染器为参考的标准材质\(Standard with Scanline as reference\)
+* glTF兼容的物理材质（Physical glTF-compliant 要求3ds Max 2017或更高版本）
 
 ＃
 
