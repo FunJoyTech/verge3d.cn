@@ -1,7 +1,9 @@
 - [首页](/?id=verge3d "Verge3D中文资源分享")
 - [发行日志](/releases_notes/)
-- [历史版本](/verge3d_archive)
-- [实用技巧](/tips/)
+- [视频教程](/tutorials)
+- [实用资源](/useful_links)  
+- [实用技巧](/tips/)  
+- [历史版本](/verge3d_archive)  
 
 - **关注我们**
 - [![公众号](_media/wechat.svg) @Verge3D](https://weibo.com/verge3d)
