@@ -20,6 +20,7 @@ Verge3D for Blender历史版本 :id=verge3d-blender
 
 | 版本号							| 发行时间	| 适用系统																	|																					|
 | :-							| :-:		| :-:																		| :-:																				|
+| Verge3D  3.8 for Blender		| 2021-09-23| [Windows ](https://cdn.soft8soft.com/downloads/verge3d-blender-3.8.0.exe)	| [macOS + Linux](https://cdn.soft8soft.com/downloads/verge3d-blender-3.8.0.tar.xz)	|
 | Verge3D  3.7.1 for Blender	| 2021-06-22| [Windows ](https://cdn.soft8soft.com/downloads/verge3d-blender-3.7.1.exe)	| [macOS + Linux](https://cdn.soft8soft.com/downloads/verge3d-blender-3.7.1.tar.xz)	|
 | Verge3D  3.7 for Blender		| 2021-05-26| [Windows ](https://cdn.soft8soft.com/downloads/verge3d-blender-3.7.0.exe)	| [macOS + Linux](https://cdn.soft8soft.com/downloads/verge3d-blender-3.7.0.tar.xz)	|
 | Verge3D  3.6.1 for Blender	| 2021-02-19| [Windows ](https://cdn.soft8soft.com/downloads/verge3d-blender-3.6.1.exe)	| [macOS + Linux](https://cdn.soft8soft.com/downloads/verge3d-blender-3.6.1.tar.xz)	|
@@ -75,6 +76,7 @@ Verge3D for 3ds Max历史版本 :id=verge3d-max
 
 | 版本号						| 发行时间	| 安装文件形式																	|
 | :-						| :-:		| :-:																			|
+| Verge3D 3.8 for 3ds Max	| 2021-09-24| [Windows安装文件](https://cdn.soft8soft.com/downloads/verge3d-max-3.8.0.exe)	|
 | Verge3D  3.7.1 for 3ds Max| 2021-06-22| [Windows安装文件](https://cdn.soft8soft.com/downloads/verge3d-max-3.7.1.exe)	|
 | Verge3D 3.7 for 3ds Max	| 2021-05-27| [Windows安装文件](https://cdn.soft8soft.com/downloads/verge3d-max-3.7.0.exe)	|
 | Verge3D 3.6.1 for 3ds Max	| 2021-02-19| [Windows安装文件](https://cdn.soft8soft.com/downloads/verge3d-max-3.6.1.exe)	|
@@ -120,6 +122,7 @@ Verge3D for Maya历史版本 :id=verge3d-maya
 ----------------------------------
 | 版本号						| 发行日期	| 适用系统																|																			|
 | :-						| -:		| :-:																	| :-:																		|
+| Verge3D  3.8 for Maya		| 2021-09-27| [Windows ](https://cdn.soft8soft.com/downloads/verge3d-maya-3.8.0.exe)| [macOS + Linux](https://cdn.soft8soft.com/downloads/verge3d-maya-3.8.0.tar.xz)|
 | Verge3D  3.7.1 for Maya	| 2021-06-22| [Windows ](https://cdn.soft8soft.com/downloads/verge3d-maya-3.7.1.exe)| [macOS + Linux](https://cdn.soft8soft.com/downloads/verge3d-maya-3.7.1.tar.xz)|
 | Verge3D  3.7 for Maya		| 2021-06-01| [Windows ](https://cdn.soft8soft.com/downloads/verge3d-maya-3.7.0.exe)| [macOS + Linux](https://cdn.soft8soft.com/downloads/verge3d-maya-3.7.0.tar.xz)|
 | Verge3D  3.6.1 for Maya	| 2021-02-19| [Windows ](https://cdn.soft8soft.com/downloads/verge3d-maya-3.6.1.exe)| [macOS + Linux](https://cdn.soft8soft.com/downloads/verge3d-maya-3.6.1.tar.xz)|
