@@ -14,6 +14,7 @@ ___
 
 ## 3.8正式版 :id=3-8
 
+- [Verge3D 3.8.1 热更新版发行日志](verge3d-3-8-1-maintenance-update) `2021-10-05`
 - [Verge3D 3.8 for Maya版及旗舰版发行日志](verge3d-3-8-for-maya-and-ultimate) `2021-09-27`
 - [Verge3D 3.8 for 3ds Max版发行日志](verge3d-3-8-for-3ds-max-released) `2021-09-24`
 - [Verge3D 3.8 for Blender版发行日志](verge3d-3-8-for-blender-released) `2021-09-23`
